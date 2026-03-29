@@ -9,7 +9,7 @@
 
 ---
 
-A list aiming to broadly cover excellent projects, papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
+A list aiming to broadly cover excellent papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
 
 Contributions welcome! Feel free to open a pull-request!
 
@@ -57,23 +57,23 @@ Shiyue Wang, Haozheng Xu, Yuhan Zhang, Jingran Lin, Changhong Lu, Xiangfeng Wang
 
 **Finding Optimal Solutions to Cooperative Pathfinding Problems** \
 Trevor Standley \
-2010, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/7564)]
+2010, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/7564)] [[code](https://github.com/Urist/CooperativePathfinding?tab=readme-ov-file)]
 
 **Conflict-based search for optimal multi-agent pathfinding** (CBS)\
 Guni Sharon, Roni Stern, Ariel Felner, Nathan R. Sturtevant \
-2015, [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370214001386)] 
+2015, [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370214001386)] [[code](https://github.com/whoenig/libMultiRobotPlanning)]
 
 **Suboptimal Variants of the Conflict-Based Search Algorithm for the Multi-Agent Pathfinding Problem** (ECBS)\
-Max Barer, Guni Sharon, Roni Stern, Ariel Felner
-2015, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/18315)]
+Max Barer, Guni Sharon, Roni Stern, Ariel Felner \
+2015, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/18315)] [[code](https://github.com/whoenig/libMultiRobotPlanning)]
 
 **ICBS: Improved Conflict-Based Search Algorithm for Multi-Agent Pathfinding** (ICBS) \
-Eli Boyarski, Ariel Felner, Roni Stern, Guni Sharon, Oded Betzalel, David Tolpin, Eyal Shimony
-2015, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/18343)]
+Eli Boyarski, Ariel Felner, Roni Stern, Guni Sharon, Oded Betzalel, David Tolpin, Eyal Shimony \
+2015, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/18343)] [[code](https://github.com/gloriyo/MAPF-ICBS)]
 
 **Subdimensional expansion for multirobot path planning** (M\*)\
 Glenn Wagner, Howie Choset \
-2015, [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370214001271)] 
+2015, [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370214001271)] [[video](https://www.youtube.com/watch?v=pfeBNvOqzvE)] [[code](https://github.com/rap-lab-org/public_cppmomapf)]
 
 <!-- **Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** \
 Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Ariel Felner, Hang Ma, Sven Koenig \
@@ -89,11 +89,11 @@ Hang Ma, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li, Sven Koenig \
 
 **Multi-Agent Pathfinding with Continuous Time** (CCBS) \
 Anton Andreychuk, Konstantin Yakovlev, Dor Atzmon, Roni Stern \
-2019, [[arXiv](https://arxiv.org/abs/1901.05506)]
+2019, [[arXiv](https://arxiv.org/abs/1901.05506)] [[code](https://github.com/PathPlanning/Continuous-CBS)]
 
 **EECBS: A Bounded-Suboptimal Search for Multi-Agent Path Finding** (EECBS)\
 Jiaoyang Li, Wheeler Ruml, Sven Koenig \
-2021, [[DOI](https://doi.org/10.1609/aaai.v35i14.17466)] 
+2021, [[DOI](https://doi.org/10.1609/aaai.v35i14.17466)] [[code](https://github.com/Jiaoyang-Li/EECBS)]
 
 **Anytime Multi-Agent Path Finding via Large Neighborhood Search** (MAPF-LNS) \
 Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey and Sven Koenig1 \
@@ -115,7 +115,7 @@ Keisuke Okumura \
 ### Sampling-based Approach
 
 **Multi-agent RRT\*: Sampling-based Cooperative Pathfinding (Extended Abstract)** (Multi-agent RRT\*)\
-Joshua M. Otte, Nikolaus Correll \
+Michal Čáp, Peter Novák, Jiří Vokřínek, Michal Pěchouček \
 2013, [[arXiv](https://arxiv.org/abs/1302.2828)] 
 
 **Cooperative Pathfinding Based on Memory-Efficient Multi-Agent RRT\*** (MA-RRT\*FN)\
@@ -128,7 +128,7 @@ Irving Solis, Read Sandström, James Motes, Nancy M. Amato \
 
 **Conflict-based Search for Multi-Robot Motion Planning with Kinodynamic Constraints** (K-CBS) \
 Justin Kottinger, Shaull Almagor, Morteza Lahijanian \
-2022, [[arXiv](https://arxiv.org/abs/2207.00576)] [[code](https://github.com/IMRCLab/Kinodynamic-Conflict-Based-Search)]
+2022, [[arXiv](https://arxiv.org/abs/2207.00576)] [[code](https://github.com/IMRCLab/Kinodynamic-Conflict-Based-Search)] [[code](https://github.com/aria-systems-group/Multi-Robot-OMPL)]
 
 
 ### Learning-based Approach
@@ -180,7 +180,7 @@ Keisuke Okumura, Xavier Défago \
 
 **LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding** (LNS2+RL)\
 Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
-2025, [[arXiv](https://arxiv.org/abs/2405.17794)] 
+2025, [[arXiv](https://arxiv.org/abs/2405.17794)] [[code](https://github.com/marmotlab/LNS2-RL)]
 
 **Graph Attention-Guided Search for Dense Multi-Agent Pathfinding** (LaGAT)\
 Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok \
