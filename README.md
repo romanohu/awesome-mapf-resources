@@ -21,7 +21,6 @@ Contributions welcome! Feel free to open a pull-request!
     - [Learning-based Approach](#learning-based-approach)
     - [Hybrid Approach](#hybrid-approach)
     - [Collision Resolution](#collision-resolution)
-    - [Others](#others)
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
         - [Search](#search)
