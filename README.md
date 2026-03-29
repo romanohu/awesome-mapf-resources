@@ -24,8 +24,7 @@ Contributions welcome! Feel free to open a pull-request!
     - [Others](#others)
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
-    - [Benchmarks](#benchmarks)
-    - [Visualization Tools](#visualization-tools)
+    - [Benchmarks & Visualization Tools & Testbed](#benchmarks--visualization-tools--testbed)
 - [Websites](#websites)
 - [Videos](#videos)
 
@@ -221,12 +220,31 @@ Yaakov Sherma, Eyal Weiss, Oren Salzman \
 ## Repositories
 ### Solver Implementations
 
-### Benchmarks
 
-
-### Visualization Tools
+### Benchmarks & Visualization Tools & Testbed
+- pogema
+    - [pogema](https://github.com/Cognitive-AI-Syshttps://github.com/Cognitive-AI-Systems/pogematems/pogema)
+    - [pogema-benchmark](https://github.com/Cognitive-AI-Systems/pogema-benchmark)
+    - [pogema-toolbox](https://github.com/Cognitive-AI-Systems/pogema-toolbox)
+- mapf-visualizer
+    - [Keisuke Okumura](https://github.com/kei18/mapf-visualizer)
+    - [Justin Shetty](https://github.com/JustinShetty/mapf-visualizer)
+- smart-mapf
+    - [SMART Simulator](https://github.com/smart-mapf)
+    - [SMART Simulator demo](https://smart-mapf.github.io/demo/)
+    - [Lifelong Scalable Multi-Agent Realistic Testbed (LSMART)](https://github.com/smart-mapf/lifelong-smart)
 
 ## Websites
+- [mapf.info](https://mapf.info/)
+- [Pathfinding Benchmarks](https://movingai.com/benchmarks/index.html)
+- [Project "Multi-Agent Path Planning (MAPF)"](https://idm-lab.org/project-p.html)
+- [Foundations of Multi-Agent Path Finding](https://jiaoyangli.me/research/mapf/)
+- [マルチエージェント経路計画の紹介](https://kei18.github.io/note/posts/mapf-tutorial/)
 
 
 ## Videos
+- [Lecture 9: Multi-Robot Path Planning(2021)](https://www.youtube.com/watch?v=VJkFHIUHHXw)
+- [AAMAS-22 Tutorial on Recent Advances in Multi-Agent Path Finding(2022)](https://www.youtube.com/watch?v=H3wRCZf_Mrs)
+- [ICRA25: Multi-Agent Path Finding Using Conflict-Based Search and Structural-Semantic Topometric Maps(2025)](https://www.youtube.com/watch?v=j3UU694Ils0)
+- [Upgrading Multi-Agent Pathfinding for the Real World(2026)](https://www.youtube.com/watch?v=XeZTyUS8ZF0)
+- [Autonomy Talks - 奥村 圭介: スケーラブルなMAPFから高性能なマルチロボット協調まで(2026)](https://www.youtube.com/watch?v=xI84VltsVRw)
