@@ -9,8 +9,6 @@
 
 A list aiming to broadly cover excellent papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
 
-Contributions welcome! Feel free to open a pull-request!
-
 ## Contents
 - [Papers](#papers)
     - [Survey](#survey)
