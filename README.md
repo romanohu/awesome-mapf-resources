@@ -15,6 +15,8 @@ Contributions welcome! Feel free to open a pull-request!
     - [Sampling-based Approach](#sampling-based-approach)
     - [Learning-based Approach](#learning-based-approach)
     - [Hybrid Approach](#hybrid-approach)
+    - [(Multi-Agent Pickup and Delivery(MAPD))](#multi-agent-pickup-and-deliverymapd)
+    - [(Multi-Agent Warehouse Rearrangement(MAWR))](#multi-agent-warehouse-rearrangementmawr)
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
     - [Benchmarks](#benchmarks)
@@ -34,6 +36,12 @@ Contributions welcome! Feel free to open a pull-request!
 
 ### Hybrid Approach
 
+### (Multi-Agent Pickup and Delivery(MAPD))
+
+### (Multi-Agent Warehouse Rearrangement(MAWR))
+
+
+### 
 
 ## Repositories
 ### Solver Implementations
