@@ -1,8 +1,8 @@
-# awesome-mapf-projects
+# awesome-mapf-resources
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![RRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-<img src="./assets/mapf_demo.svg" width="100%">
+<img src="./assets/mapf_demo.svg" width="100%" alt="Map created using pogema(https://github.com/Cognitive-AI-Systems/pogema). The solver is LaCAM(https://arxiv.org/abs/2211.13432).">
 
 A list aiming to broadly cover excellent projects, papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
 
