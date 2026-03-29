@@ -218,6 +218,8 @@ Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, S
 
 
 ## Repositories　&#x1f4c1;
+The GitHub star list is available [here](https://github.com/stars/romanohu/lists/mapf)
+
 ### Solver Implementations
 
 #### Search
