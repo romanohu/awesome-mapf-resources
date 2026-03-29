@@ -20,6 +20,7 @@ Contributions welcome! Feel free to open a pull-request!
     - [Sampling-based Approach](#sampling-based-approach)
     - [Learning-based Approach](#learning-based-approach)
     - [Hybrid Approach](#hybrid-approach)
+    - [Collision Resolution](#collision-resolution)
     - [Others](#others)
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
@@ -75,9 +76,9 @@ Eli Boyarski, Ariel Felner, Roni Stern, Guni Sharon, Oded Betzalel, David Tolpin
 Glenn Wagner, Howie Choset \
 2015, [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370214001271)] [[video](https://www.youtube.com/watch?v=pfeBNvOqzvE)] [[code](https://github.com/rap-lab-org/public_cppmomapf)]
 
-**Searching with Consistent Prioritization for Multi-Agent Path Finding** \
+**Searching with Consistent Prioritization for Multi-Agent Path Finding** (PBS)\
 Hang Ma, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li, Sven Koenig \
-2018, [[arXiv](https://arxiv.org/abs/1812.06356)]
+2018, [[arXiv](https://arxiv.org/abs/1812.06356)] [[code](https://github.com/Jiaoyang-Li/PBS)]
 
 <**Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** (CBS with disjoint splitting)\
 Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Ariel Felner, Hang Ma, Sven Koenig \
@@ -97,7 +98,7 @@ Jiaoyang Li, Wheeler Ruml, Sven Koenig \
 2021, [[DOI](https://doi.org/10.1609/aaai.v35i14.17466)] [[code](https://github.com/Jiaoyang-Li/EECBS)]
 
 **Pairwise Symmetry Reasoning for Multi-Agent Path Finding Search** (CBSH2-RTC) \
-Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Sven Koenig
+Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Sven Koenig \
 2021, [[arXiv](https://arxiv.org/abs/2103.07116)] [[code](https://github.com/Jiaoyang-Li/CBSH2-RTC?tab=readme-ov-file)]
 
 **Anytime Multi-Agent Path Finding via Large Neighborhood Search** (MAPF-LNS) \
@@ -191,15 +192,22 @@ Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
 Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok \
 2025, [[arXiv](https://arxiv.org/abs/2510.17382)] [[code](https://github.com/proroklab/lagat)]
 
-### Others
+
+### Collision Resolution
+
+**Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding** (PIBT) \
+Keisuke Okumura, Manao Machida, Xavier Défago, Yasumasa Tamura \
+2019, [[IJCAI](https://www.ijcai.org/proceedings/2019/76)] [[website](https://kei18.github.io/pibt2/)] [[video](https://www.youtube.com/watch?v=8Yrwd0t0NEw&t=4s)] [[code](https://github.com/Kei18/pibt2)]
+
+**Lifelong Multi-Agent Path Finding in Large-Scale Warehouses** (RHCR) \
+Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, Sven Koenig \
+2021, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/17344)] [[code](https://github.com/Jiaoyang-Li/RHCR)]
+
 <!-- #### Multi-Agent Pickup and Delivery(MAPD)
 **Lifelong Multi-Agent Path Finding for Online Pickup and Delivery Tasks** \
 Hang Ma, Wolfgang Hoenig, T. K. Satish Kumar, Sven Koenig \
 2017, [[arXiv](https://arxiv.org/abs/1705.10868)] 
 
-**Lifelong Multi-Agent Path Finding in Large-Scale Warehouses** \
-Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, Sven Koenig \
-2021, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/17344)] 
 
 **Task assignment strategies for capacitated agents engaged in lifelong pickup and delivery tasks** \
 Evren Cilden, Faruk Polat \
@@ -208,7 +216,7 @@ Evren Cilden, Faruk Polat \
 #### Multi-Agent Warehouse Rearrangement(MAWR)
 **From Agent Centric to Obstacle Centric Planning: A Makespan-Optimal Algorithm for the Multi-Agent Warehouse Rearrangement Problem** \
 Yaakov Sherma, Eyal Weiss, Oren Salzman \
-2025, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/35985/38140)]  -->
+2025, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/35985/38140)] -->
 
 ## Repositories
 ### Solver Implementations
