@@ -9,11 +9,14 @@
 
 A list aiming to broadly cover excellent papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
 
-MAPF is the problem of computing optimal, collision-free paths for multiple agents from their start positions to their respective goals in a shared environment.
+Contributions welcome! Feel free to open a Pull-requests!
 
-Contributions welcome! Feel free to open a pull-request!
+> Note : If you find any typos or incorrect information, I'd greatly appreciate it if you could report them through Issues, Pull-requests or other Contact Methods.　&#x1F64F;
 
 ## Contents
+
+MAPF is the problem of computing optimal, collision-free paths for multiple agents from their start positions to their respective goals in a shared environment. 
+
 - [Papers](#papers)
     - [Survey](#survey)
     - [Search-based Approach](#search-based-approach)
@@ -35,7 +38,7 @@ Contributions welcome! Feel free to open a pull-request!
 - [Websites](#websites)
 - [Videos](#videos)
 
-## Papers
+## Papers　&#x1f4d6;
 
 ### Survey
 
@@ -214,7 +217,7 @@ Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, S
 2021, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/17344)] [[code](https://github.com/Jiaoyang-Li/RHCR)]
 
 
-## Repositories
+## Repositories　&#x1f4c1;
 ### Solver Implementations
 
 #### Search
@@ -300,7 +303,7 @@ Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, S
 | SMART Simulator Demo | [smart-mapf demo](https://smart-mapf.github.io/demo/) | Browser demo for quickly testing and viewing SMART simulator behavior. |
 | LSMART | [smart-mapf/lifelong-smart](https://github.com/smart-mapf/lifelong-smart) | Lifelong Scalable Multi-Agent Realistic Testbed for long-horizon MAPF research. |
 
-## Websites
+## Websites　&#x1f5a5;
 - [mapf.info](https://mapf.info/)
 - [Pathfinding Benchmarks](https://movingai.com/benchmarks/index.html)
 - [Project "Multi-Agent Path Planning (MAPF)"](https://idm-lab.org/project-p.html)
@@ -309,7 +312,7 @@ Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, S
 - [マルチエージェント経路計画の紹介](https://kei18.github.io/note/posts/mapf-tutorial/)
 
 
-## Videos
+## Videos　&#x1f3a5;
 - [Lecture 9: Multi-Robot Path Planning(2021)](https://www.youtube.com/watch?v=VJkFHIUHHXw)
 - [AAMAS-22 Tutorial on Recent Advances in Multi-Agent Path Finding(2022)](https://www.youtube.com/watch?v=H3wRCZf_Mrs)
 - [ICRA25: Multi-Agent Path Finding Using Conflict-Based Search and Structural-Semantic Topometric Maps(2025)](https://www.youtube.com/watch?v=j3UU694Ils0)
