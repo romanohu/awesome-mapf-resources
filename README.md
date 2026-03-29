@@ -2,10 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![RRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-<figure>
 <img src="./assets/mapf_demo_500.svg" width="100%" alt="Map created using pogema(https://github.com/Cognitive-AI-Systems/pogema). The solver is LaCAM(https://arxiv.org/abs/2211.13432).">
-<figcaption>Map created using pogema. The solver is LaCAM.</figcaption>
-</figure>
+
 
 ---
 
@@ -330,3 +328,9 @@ Yaakov Sherma, Eyal Weiss, Oren Salzman \
 - [ICRA25: Multi-Agent Path Finding Using Conflict-Based Search and Structural-Semantic Topometric Maps(2025)](https://www.youtube.com/watch?v=j3UU694Ils0)
 - [Upgrading Multi-Agent Pathfinding for the Real World(2026)](https://www.youtube.com/watch?v=XeZTyUS8ZF0)
 - [Autonomy Talks - 奥村 圭介: スケーラブルなMAPFから高性能なマルチロボット協調まで(2026)](https://www.youtube.com/watch?v=xI84VltsVRw)
+
+---
+
+> References
+> - [awesome-mapf](https://github.com/joonyeol-sim/awesome-mapf?tab=readme-ov-file) ```Reference list used for literature search```
+> - [pogema](https://github.com/Cognitive-AI-Systems/pogema) ```Used for creating demos of assets```
