@@ -2,10 +2,11 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![RRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-<img src="./assets/mapf_demo.svg">
+<img src="./assets/mapf_demo.svg" width="100%">
 
 A list aiming to broadly cover excellent projects, papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
 
+Contributions welcome! Feel free to open a pull-request!
 
 ## Contents
 - [Papers](#papers)
@@ -15,6 +16,9 @@ A list aiming to broadly cover excellent projects, papers, repositories, website
     - [Learning-based Approach](#learning-based-approach)
     - [Hybrid Approach](#hybrid-approach)
 - [Repositories](#repositories)
+    - [Solver Implementations](#solver-implementations)
+    - [Benchmarks](#benchmarks)
+    - [Visualization Tools](#visualization-tools)
 - [Websites](#websites)
 - [Videos](#videos)
 
@@ -32,7 +36,12 @@ A list aiming to broadly cover excellent projects, papers, repositories, website
 
 
 ## Repositories
+### Solver Implementations
 
+### Benchmarks
+
+
+### Visualization Tools
 
 ## Websites
 
