@@ -9,6 +9,10 @@
 
 A list aiming to broadly cover excellent papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
 
+MAPF is the problem of computing optimal, collision-free paths for multiple agents from their start positions to their respective goals in a shared environment.
+
+Contributions welcome! Feel free to open a pull-request!
+
 ## Contents
 - [Papers](#papers)
     - [Survey](#survey)
@@ -137,11 +141,11 @@ Jinmingwu Jiang, Kaigui Wu \
 
 **Representation-Optimal Multi-Robot Motion Planning using Conflict-Based Search** (CBS-MP) \
 Irving Solis, Read Sandström, James Motes, Nancy M. Amato \
-2020, [[arXiv](https://arxiv.org/abs/1909.13352)]
+2020, [[arXiv](https://arxiv.org/abs/1909.13352)] [[code](https://github.com/aria-systems-group/Multi-Robot-OMPL)]
 
 **Conflict-based Search for Multi-Robot Motion Planning with Kinodynamic Constraints** (K-CBS) \
 Justin Kottinger, Shaull Almagor, Morteza Lahijanian \
-2022, [[arXiv](https://arxiv.org/abs/2207.00576)] [[code](https://github.com/IMRCLab/Kinodynamic-Conflict-Based-Search)] [[code](https://github.com/aria-systems-group/Multi-Robot-OMPL)]
+2022, [[arXiv](https://arxiv.org/abs/2207.00576)] [[code](https://github.com/IMRCLab/Kinodynamic-Conflict-Based-Search)]
 
 
 ### Learning-based Approach
@@ -210,20 +214,6 @@ Keisuke Okumura, Manao Machida, Xavier Défago, Yasumasa Tamura \
 Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, Sven Koenig \
 2021, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/17344)] [[code](https://github.com/Jiaoyang-Li/RHCR)]
 
-<!-- #### Multi-Agent Pickup and Delivery(MAPD)
-**Lifelong Multi-Agent Path Finding for Online Pickup and Delivery Tasks** \
-Hang Ma, Wolfgang Hoenig, T. K. Satish Kumar, Sven Koenig \
-2017, [[arXiv](https://arxiv.org/abs/1705.10868)] 
-
-
-**Task assignment strategies for capacitated agents engaged in lifelong pickup and delivery tasks** \
-Evren Cilden, Faruk Polat \
-2025, [[DOI](https://doi.org/10.1016/j.knosys.2025.114281)] 
-
-#### Multi-Agent Warehouse Rearrangement(MAWR)
-**From Agent Centric to Obstacle Centric Planning: A Makespan-Optimal Algorithm for the Multi-Agent Warehouse Rearrangement Problem** \
-Yaakov Sherma, Eyal Weiss, Oren Salzman \
-2025, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/35985/38140)] -->
 
 ## Repositories
 ### Solver Implementations
@@ -295,7 +285,7 @@ Yaakov Sherma, Eyal Weiss, Oren Salzman \
 #### Others
 | Solver / Repository | Implementation | Description |
 | --- | --- | --- |
-| Python MAPF algorithms | [zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning) | Python collection of multiple MAPF methods. |
+| Python PathPlanning algorithms | [zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning) | Python collection of multiple MAPF methods. |
 | Python MAPF algorithms | [atb033/multi_agent_path_planning](https://github.com/atb033/multi_agent_path_planning) | Python collection of multiple MAPF methods. |
 | Java MAPF algorithms | [J-morag/MAPF](https://github.com/J-morag/MAPF) | Java collection of multiple MAPF methods. |
 
