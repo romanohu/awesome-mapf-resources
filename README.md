@@ -116,6 +116,10 @@ Keisuke Okumura \
 Keisuke Okumura \
 2023, [[arXiv](https://arxiv.org/abs/2305.03632)] [[website](https://kei18.github.io/lacam2/)] [[code](https://github.com/Kei18/lacam2)]
 
+**db-LaCAM: Fast and Scalable Multi-Robot Kinodynamic Motion Planning with Discontinuity-Bounded Search and Lightweight MAPF** (db-LaCAM) \
+Akmaral Moldagalieva, Keisuke Okumura, Amanda Prorok, Wolfgang Hönig \
+2026, [[arXiv](https://arxiv.org/abs/2512.06796)] [[video](https://www.youtube.com/watch?v=K7xUFpH7a48)] [[code](https://github.com/IMRCLab/db-lacam)]
+
 
 ### Sampling-based Approach
 
@@ -189,7 +193,7 @@ Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
 
 **Graph Attention-Guided Search for Dense Multi-Agent Pathfinding** (LaGAT)\
 Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok \
-2025, [[arXiv](https://arxiv.org/abs/2510.17382)] [[code](https://github.com/proroklab/lagat)]
+2026, [[arXiv](https://arxiv.org/abs/2510.17382)] [[code](https://github.com/proroklab/lagat)]
 
 
 ### Collision Resolution
@@ -238,6 +242,7 @@ Yaakov Sherma, Eyal Weiss, Oren Salzman \
 - [mapf.info](https://mapf.info/)
 - [Pathfinding Benchmarks](https://movingai.com/benchmarks/index.html)
 - [Project "Multi-Agent Path Planning (MAPF)"](https://idm-lab.org/project-p.html)
+- [A Project on Multi-Agent Path Finding](https://modelai.gettysburg.edu/2020/mapf/)
 - [Foundations of Multi-Agent Path Finding](https://jiaoyangli.me/research/mapf/)
 - [マルチエージェント経路計画の紹介](https://kei18.github.io/note/posts/mapf-tutorial/)
 
