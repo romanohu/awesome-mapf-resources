@@ -75,17 +75,18 @@ Eli Boyarski, Ariel Felner, Roni Stern, Guni Sharon, Oded Betzalel, David Tolpin
 Glenn Wagner, Howie Choset \
 2015, [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370214001271)] [[video](https://www.youtube.com/watch?v=pfeBNvOqzvE)] [[code](https://github.com/rap-lab-org/public_cppmomapf)]
 
-<!-- **Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** \
-Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Ariel Felner, Hang Ma, Sven Koenig \
-2019, [[AAAI](https://ojs.aaai.org/index.php/ICAPS/article/view/3487)] 
-
-**Improved Heuristics for Multi-Agent Path Finding with Conflict-Based Search** \
-Jiaoyang Li, Ariel Felner, Eli Boyarski, Hang Ma, Sven Koenig \
-2019, [[IJCAI](https://www.ijcai.org/proceedings/2019/63)] 
-
 **Searching with Consistent Prioritization for Multi-Agent Path Finding** \
 Hang Ma, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li, Sven Koenig \
-2019, [[DOI](https://doi.org/10.1609/aaai.v33i01.33017643)] -->
+2018, [[arXiv](https://arxiv.org/abs/1812.06356)]
+
+<**Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** (CBS with disjoint splitting)\
+Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Ariel Felner, Hang Ma, Sven Koenig \
+2019, [[AAAI](https://ojs.aaai.org/index.php/ICAPS/article/view/3487)]
+
+**Improved Heuristics for Multi-Agent Path Finding with Conflict-Based Search** (CBSH2)\
+Jiaoyang Li, Ariel Felner, Eli Boyarski, Hang Ma, Sven Koenig \
+2019, [[IJCAI](https://www.ijcai.org/proceedings/2019/63)] [[code](https://github.com/Jiaoyang-Li/CBSH2)]
+
 
 **Multi-Agent Pathfinding with Continuous Time** (CCBS) \
 Anton Andreychuk, Konstantin Yakovlev, Dor Atzmon, Roni Stern \
@@ -94,6 +95,10 @@ Anton Andreychuk, Konstantin Yakovlev, Dor Atzmon, Roni Stern \
 **EECBS: A Bounded-Suboptimal Search for Multi-Agent Path Finding** (EECBS)\
 Jiaoyang Li, Wheeler Ruml, Sven Koenig \
 2021, [[DOI](https://doi.org/10.1609/aaai.v35i14.17466)] [[code](https://github.com/Jiaoyang-Li/EECBS)]
+
+**Pairwise Symmetry Reasoning for Multi-Agent Path Finding Search** (CBSH2-RTC) \
+Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Sven Koenig
+2021, [[arXiv](https://arxiv.org/abs/2103.07116)] [[code](https://github.com/Jiaoyang-Li/CBSH2-RTC?tab=readme-ov-file)]
 
 **Anytime Multi-Agent Path Finding via Large Neighborhood Search** (MAPF-LNS) \
 Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey and Sven Koenig1 \
