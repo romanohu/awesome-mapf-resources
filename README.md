@@ -2,7 +2,11 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![RRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
+<figure>
 <img src="./assets/mapf_demo_500.svg" width="100%" alt="Map created using pogema(https://github.com/Cognitive-AI-Systems/pogema). The solver is LaCAM(https://arxiv.org/abs/2211.13432).">
+<figcaption>Map created using pogema. The solver is LaCAM.</figcaption>
+</figure>
+
 
 A list aiming to broadly cover excellent projects, papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
 
@@ -24,7 +28,9 @@ Contributions welcome! Feel free to open a pull-request!
 - [Videos](#videos)
 
 ## Papers
+
 ### Survey
+
 **Multi-Agent Path Finding – An Overview** \
 Roni Stern \
 2019, [[ResearchGate](https://www.researchgate.net/publication/336611576_Multi-Agent_Path_Finding_-_An_Overview)] 
@@ -45,7 +51,9 @@ Jean-Marc Alkazzi, Keisuke Okumura \
 Shiyue Wang, Haozheng Xu, Yuhan Zhang, Jingran Lin, Changhong Lu, Xiangfeng Wang, Wenhao Li \
 2025, [[arXiv](https://arxiv.org/abs/2505.19219)] 
 
+
 ### Search-based Approach
+
 **Finding Optimal Solutions to Cooperative Pathfinding Problems** \
 Trevor Standley \
 2010, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/7564)]
@@ -102,16 +110,28 @@ Keisuke Okumura \
 Keisuke Okumura \
 2023, [[arXiv](https://arxiv.org/abs/2305.03632)] [[website](https://kei18.github.io/lacam2/)] [[code](https://github.com/Kei18/lacam2)]
 
+
 ### Sampling-based Approach
-<!-- **Multi-agent RRT: Sampling-based Cooperative Pathfinding (Extended Abstract)** \
+
+**Multi-agent RRT\*: Sampling-based Cooperative Pathfinding (Extended Abstract)** (Multi-agent RRT\*)\
 Joshua M. Otte, Nikolaus Correll \
 2013, [[arXiv](https://arxiv.org/abs/1302.2828)] 
 
-**Cooperative Pathfinding Based on Memory-Efficient Multi-Agent RRT\*** \
+**Cooperative Pathfinding Based on Memory-Efficient Multi-Agent RRT\*** (MA-RRT\*FN)\
 Jinmingwu Jiang, Kaigui Wu \
-2020, [[DOI](https://doi.org/10.1109/ACCESS.2020.3023200)]  -->
+2020, [[arXiv](https://arxiv.org/abs/1911.03927)]
+
+**Representation-Optimal Multi-Robot Motion Planning using Conflict-Based Search** (CBS-MP) \
+Irving Solis, Read Sandström, James Motes, Nancy M. Amato \
+2020, [[arXiv](https://arxiv.org/abs/1909.13352)]
+
+**Conflict-based Search for Multi-Robot Motion Planning with Kinodynamic Constraints** (K-CBS) \
+Justin Kottinger, Shaull Almagor, Morteza Lahijanian \
+2022, [[arXiv](https://arxiv.org/abs/2207.00576)] [[code](https://github.com/IMRCLab/Kinodynamic-Conflict-Based-Search)]
+
 
 ### Learning-based Approach
+
 **PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning** (PRIMAL) \
 Guillaume Sartoretti, Justin Kerr, Yunfei Shi, Glenn Wagner, T. K. Satish Kumar, Sven Koenig, Howie Choset \
 2019, [[arXiv](https://arxiv.org/abs/1809.03531)] [[code](https://github.com/gsartoretti/PRIMAL)]
@@ -146,11 +166,16 @@ Rishabh Jain, Keisuke Okumura, Michael Amir, Pietro Lio, Amanda Prorok \
 2025, [[arXiv](https://arxiv.org/abs/2602.06733)] [[code](https://github.com/proroklab/hmagat)]
 
 
-
 ### Hybrid Approach
+
 **Learning to Resolve Conflicts for Multi-Agent Path Finding with Conflict-Based Search** (ML-guided CBS)\
 Taoan Huang, Sven Koenig, Bistra Dilkina \
 2021, [[arXiv](https://arxiv.org/abs/2012.06005)] 
+
+**Quick Multi-Robot Motion Planning by Combining Sampling and Search** (SSSP) \
+Keisuke Okumura, Xavier Défago \
+2022, [[arXiv](https://arxiv.org/abs/2203.00315)] [[website](https://kei18.github.io/sssp/)] [[video](https://www.youtube.com/watch?v=ZMjrQCKS6Fw&t=75s)] [[code](https://github.com/Kei18/sssp)]
+
 
 **LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding** (LNS2+RL)\
 Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
