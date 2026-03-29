@@ -7,6 +7,7 @@
 <figcaption>Map created using pogema. The solver is LaCAM.</figcaption>
 </figure>
 
+---
 
 A list aiming to broadly cover excellent projects, papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
 
