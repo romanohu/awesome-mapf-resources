@@ -48,17 +48,25 @@ Shiyue Wang, Haozheng Xu, Yuhan Zhang, Jingran Lin, Changhong Lu, Xiangfeng Wang
 ### Search-based Approach
 **Finding Optimal Solutions to Cooperative Pathfinding Problems** \
 Trevor Standley \
-2010, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/7564)] 
+2010, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/7564)]
 
 **Conflict-based search for optimal multi-agent pathfinding** (CBS)\
 Guni Sharon, Roni Stern, Ariel Felner, Nathan R. Sturtevant \
 2015, [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370214001386)] 
 
-**Subdimensional expansion for multirobot path planning** (ECBS)\
+**Suboptimal Variants of the Conflict-Based Search Algorithm for the Multi-Agent Pathfinding Problem** (ECBS)\
+Max Barer, Guni Sharon, Roni Stern, Ariel Felner
+2015, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/18315)]
+
+**ICBS: Improved Conflict-Based Search Algorithm for Multi-Agent Pathfinding** (ICBS) \
+Eli Boyarski, Ariel Felner, Roni Stern, Guni Sharon, Oded Betzalel, David Tolpin, Eyal Shimony
+2015, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/18343)]
+
+**Subdimensional expansion for multirobot path planning** (M\*)\
 Glenn Wagner, Howie Choset \
 2015, [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0004370214001271)] 
 
-**Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** \
+<!-- **Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** \
 Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Ariel Felner, Hang Ma, Sven Koenig \
 2019, [[AAAI](https://ojs.aaai.org/index.php/ICAPS/article/view/3487)] 
 
@@ -68,7 +76,11 @@ Jiaoyang Li, Ariel Felner, Eli Boyarski, Hang Ma, Sven Koenig \
 
 **Searching with Consistent Prioritization for Multi-Agent Path Finding** \
 Hang Ma, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li, Sven Koenig \
-2019, [[DOI](https://doi.org/10.1609/aaai.v33i01.33017643)] 
+2019, [[DOI](https://doi.org/10.1609/aaai.v33i01.33017643)] -->
+
+**Multi-Agent Pathfinding with Continuous Time** (CCBS) \
+Anton Andreychuk, Konstantin Yakovlev, Dor Atzmon, Roni Stern \
+2019, [[arXiv](https://arxiv.org/abs/1901.05506)]
 
 **EECBS: A Bounded-Suboptimal Search for Multi-Agent Path Finding** (EECBS)\
 Jiaoyang Li, Wheeler Ruml, Sven Koenig \
@@ -82,12 +94,12 @@ Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey and Sven Koenig1 \
 Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey, Sven Koenig \
 2022, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/21266)] [[code](https://github.com/Jiaoyang-Li/MAPF-LNS2)]
 
-**LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding** \
-Keisuke Okumura (LaCAM)\
+**LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding** (LaCAM)\
+Keisuke Okumura \
 2022, [[arXiv](https://arxiv.org/abs/2211.13432)] [[website](https://kei18.github.io/lacam/)] [[code](https://github.com/Kei18/lacam)]
 
-**Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding** \
-Keisuke Okumura (LaCAM\*)\
+**Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding** (LaCAM\*)\
+Keisuke Okumura \
 2023, [[arXiv](https://arxiv.org/abs/2305.03632)] [[website](https://kei18.github.io/lacam2/)] [[code](https://github.com/Kei18/lacam2)]
 
 ### Sampling-based Approach
@@ -112,6 +124,10 @@ Mehul Damani, Zhiyao Luo, Emerson Wenzel, Guillaume Sartoretti \
 Qingbiao Li, Weizhe Lin, Zhe Liu, Amanda Prorok \
 2021, [[arXiv](https://arxiv.org/abs/2011.13219)] [[code](https://github.com/proroklab/magat_pathplanning)]
 
+**CTRMs: Learning to Construct Cooperative Timed Roadmaps for Multi-agent Path Planning in Continuous Spaces** (CTRM) \
+Keisuke Okumura, Ryo Yonetani, Mai Nishimura, Asako Kanezaki \
+2022, [[arXiv](https://arxiv.org/abs/2201.09467)] [[website](https://omron-sinicx.github.io/ctrm/)] [[code](https://github.com/omron-sinicx/ctrm)]
+
 **SCRIMP: Scalable Communication for Reinforcement- and Imitation-Learning-Based Multi-Agent Pathfinding** (SCRIMP)\
 Yutong Wang, Bairan Xiang, Shinan Huang, Guillaume Sartoretti \
 2023, [[arXiv](https://arxiv.org/abs/2303.00605)] [[code](https://github.com/marmotlab/SCRIMP)]
@@ -132,15 +148,15 @@ Rishabh Jain, Keisuke Okumura, Michael Amir, Pietro Lio, Amanda Prorok \
 
 
 ### Hybrid Approach
-**Learning to Resolve Conflicts for Multi-Agent Path Finding with Conflict-Based Search** \
+**Learning to Resolve Conflicts for Multi-Agent Path Finding with Conflict-Based Search** (ML-guided CBS)\
 Taoan Huang, Sven Koenig, Bistra Dilkina \
-2021, [[DOI](https://doi.org/10.1609/aaai.v35i13.17341)] 
+2021, [[arXiv](https://arxiv.org/abs/2012.06005)] 
 
-**LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding** \
+**LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding** (LNS2+RL)\
 Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
-2025, [[DOI](https://doi.org/10.1609/AAAI.V39I22.34501)] 
+2025, [[arXiv](https://arxiv.org/abs/2405.17794)] 
 
-**Graph Attention-Guided Search for Dense Multi-Agent Pathfinding** \
+**Graph Attention-Guided Search for Dense Multi-Agent Pathfinding** (LaGAT)\
 Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok \
 2025, [[arXiv](https://arxiv.org/abs/2510.17382)] [[code](https://github.com/proroklab/lagat)]
 
