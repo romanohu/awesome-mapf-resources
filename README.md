@@ -15,8 +15,7 @@ Contributions welcome! Feel free to open a pull-request!
     - [Sampling-based Approach](#sampling-based-approach)
     - [Learning-based Approach](#learning-based-approach)
     - [Hybrid Approach](#hybrid-approach)
-    - [(Multi-Agent Pickup and Delivery(MAPD))](#multi-agent-pickup-and-deliverymapd)
-    - [(Multi-Agent Warehouse Rearrangement(MAWR))](#multi-agent-warehouse-rearrangementmawr)
+    - [Others](#others)
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
     - [Benchmarks](#benchmarks)
@@ -24,9 +23,35 @@ Contributions welcome! Feel free to open a pull-request!
 - [Websites](#websites)
 - [Videos](#videos)
 
-
 ## Papers
 ### Survey
+**Multi-Agent Path Finding – An Overview** [[Link](https://www.researchgate.net/publication/336611576_Multi-Agent_Path_Finding_-_An_Overview)] \
+Roni Stern \
+2019
+
+**Multi-Agent Pathfinding: Definitions, Variants, and Benchmarks** [[Link](https://arxiv.org/abs/1906.08291)] \
+Roni Stern, Nathan Sturtevant, Ariel Felner, Sven Koenig, Hang Ma, Thayne Walker, Jiaoyang Li, Dor Atzmon, Liron Cohen, T. K. Satish Kumar, Eli Boyarski, Roman Bartak \
+2019
+
+**Problem Compilation for Multi-Agent Path Finding: a Survey** [[Link](https://www.ijcai.org/proceedings/2022/783)] [[video](https://www.ijcai.org/proceedings/2022/video/783)] \
+Pavel Surynek \
+2022
+
+**A Comprehensive Review on Leveraging Machine
+Learning for Multi-Agent Path Finding** [[Link](https://www.researchgate.net/publication/380014238_A_Comprehensive_Review_on_Leveraging_Machine_Learning_for_Multi-Agent_Path_Finding)] \
+Jean-Marc Alkazzi, Keisuke Okumura \
+2024
+
+**Where Paths Collide: A Comprehensive Survey of Classic and Learning-Based Multi-Agent Pathfinding** [[Link](https://arxiv.org/abs/2505.19219)] \
+Shiyue Wang, Haozheng Xu, Yuhan Zhang, Jingran Lin, Changhong Lu, Xiangfeng Wang, Wenhao Li \
+2025
+
+
+
+
+
+
+
 
 ### Search-based Approach
 
@@ -36,9 +61,9 @@ Contributions welcome! Feel free to open a pull-request!
 
 ### Hybrid Approach
 
-### (Multi-Agent Pickup and Delivery(MAPD))
-
-### (Multi-Agent Warehouse Rearrangement(MAWR))
+### Others
+- Multi-Agent Pickup and Delivery(MAPD)
+- Multi-Agent Warehouse Rearrangement(MAWR)
 
 
 ### 
