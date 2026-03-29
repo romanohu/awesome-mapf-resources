@@ -24,6 +24,14 @@ Contributions welcome! Feel free to open a pull-request!
     - [Others](#others)
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
+        - [Search](#search)
+        - [CBS Family](#cbs-family)
+        - [LaCAM Family](#lacam-family)
+        - [LNS Family](#lns-family)
+        - [Collision Resolution](#collision-resolution-1)
+        - [Learning-based](#learning-based)
+        - [Hybrid](#hybrid)
+        - [Others](#others)
     - [Benchmarks & Visualization Tools & Testbed](#benchmarks--visualization-tools--testbed)
 - [Websites](#websites)
 - [Videos](#videos)
@@ -224,19 +232,88 @@ Yaakov Sherma, Eyal Weiss, Oren Salzman \
 ## Repositories
 ### Solver Implementations
 
+#### Search
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| M* | [rap-lab-org/public_cppmomapf](https://github.com/rap-lab-org/public_cppmomapf) | C++ implementation based on M* (subdimensional expansion). |
+| PBS | [Jiaoyang-Li/PBS](https://github.com/Jiaoyang-Li/PBS) | Reference implementation of PBS for priority-based MAPF search. |
+
+#### CBS Family
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| CBS / ECBS (library) | [whoenig/libMultiRobotPlanning](https://github.com/whoenig/libMultiRobotPlanning) | Widely used C++ planning library including CBS, ECBS, SIPP, and related planners. |
+| ICBS | [gloriyo/MAPF-ICBS](https://github.com/gloriyo/MAPF-ICBS) | Educational and experimental implementation of Improved CBS. |
+| CBSH2 | [Jiaoyang-Li/CBSH2](https://github.com/Jiaoyang-Li/CBSH2) | CBS variant with improved high-level heuristics. |
+| CCBS | [PathPlanning/Continuous-CBS](https://github.com/PathPlanning/Continuous-CBS) | Continuous-time extension of CBS with time-aware collision handling. |
+| EECBS | [Jiaoyang-Li/EECBS](https://github.com/Jiaoyang-Li/EECBS) | Bounded-suboptimal CBS using Explicit Estimation Search. |
+| CBSH2-RTC | [Jiaoyang-Li/CBSH2-RTC](https://github.com/Jiaoyang-Li/CBSH2-RTC) | CBSH2 extension with pairwise symmetry reasoning. |
+| K-CBS | [IMRCLab/Kinodynamic-Conflict-Based-Search](https://github.com/IMRCLab/Kinodynamic-Conflict-Based-Search) | CBS-style solver for kinodynamic multi-robot planning. |
+
+#### LaCAM Family
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| LaCAM | [Kei18/lacam](https://github.com/Kei18/lacam) | Fast search-based MAPF solver focused on runtime efficiency. |
+| LaCAM* | [Kei18/lacam2](https://github.com/Kei18/lacam2) | LaCAM extension with stronger eventual optimality properties. |
+| LaCAM3 | [Kei18/lacam3](https://github.com/Kei18/lacam3) | Engineering-focused LaCAM* extension for real-time and large-scale scenarios. |
+| pylacam | [Kei18/pylacam](https://github.com/Kei18/pylacam) | Minimal Python implementation of LaCAM*. |
+| db-LaCAM | [IMRCLab/db-lacam](https://github.com/IMRCLab/db-lacam) | Kinodynamic planning pipeline using discontinuity-bounded search plus lightweight MAPF. |
+
+#### LNS Family
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| MAPF-LNS | [Jiaoyang-Li/MAPF-LNS](https://github.com/Jiaoyang-Li/MAPF-LNS) | LNS-based anytime MAPF solver with iterative repair. |
+| MAPF-LNS2 | [Jiaoyang-Li/MAPF-LNS2](https://github.com/Jiaoyang-Li/MAPF-LNS2) | Faster repair-focused successor to MAPF-LNS. |
+
+#### Collision Resolution
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| PIBT | [Kei18/pibt2](https://github.com/Kei18/pibt2) | Official-style PIBT implementation widely used in lifelong MAPF. |
+| pypibt | [Kei18/pypibt](https://github.com/Kei18/pypibt) | Minimal Python implementation of PIBT. |
+| Guided-PIBT | [nobodyczcz/Guided-PIBT](https://github.com/nobodyczcz/guided-pibt) | Traffic-flow-guided PIBT extension for lifelong MAPF. |
+| RHCR | [Jiaoyang-Li/RHCR](https://github.com/Jiaoyang-Li/RHCR) | Rolling-horizon method for large-scale lifelong MAPF. |
+
+#### Learning-based
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| PRIMAL | [gsartoretti/PRIMAL](https://github.com/gsartoretti/PRIMAL) | Classic RL+imitation-learning MAPF baseline. |
+| PRIMAL2 | [marmotlab/PRIMAL2](https://github.com/marmotlab/PRIMAL2) | Lifelong extension of PRIMAL. |
+| MAGAT | [proroklab/magat_pathplanning](https://github.com/proroklab/magat_pathplanning) | GNN-based MAPF approach with message-aware coordination. |
+| HMAGAT | [proroklab/hmagat](https://github.com/proroklab/hmagat) | Hypergraph neural architecture for dense MAPF. |
+| CTRM | [omron-sinicx/ctrm](https://github.com/omron-sinicx/ctrm) | Learns cooperative timed roadmaps for continuous-space MAPF. |
+| SCRIMP | [marmotlab/SCRIMP](https://github.com/marmotlab/SCRIMP) | RL/IL approach emphasizing scalable inter-agent communication. |
+| MAPF-GPT | [CognitiveAISystems/MAPF-GPT](https://github.com/CognitiveAISystems/MAPF-GPT) | Large-scale imitation-learning-based MAPF solver. |
+| MAPF-GPT-DDG | [Cognitive-AI-Systems/MAPF-GPT-DDG](https://github.com/Cognitive-AI-Systems/MAPF-GPT-DDG) | MAPF-GPT variant with active fine-tuning. |
+
+
+
+#### Hybrid
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| SSSP | [Kei18/sssp](https://github.com/Kei18/sssp) | Hybrid motion planner that combines search and sampling. |
+| LNS2+RL | [marmotlab/LNS2-RL](https://github.com/marmotlab/LNS2-RL) | Hybrid approach combining LNS2 with learned policies. |
+| Improving ML MAPF Policies with Heuristic Search | [Rishi-V/ML-MAPF-with-Search](https://github.com/Rishi-V/ML-MAPF-with-Search) | Focuses on improving the performance of learned single-stage policies in MAPF using heuristic search techniques |
+| LaGAT | [proroklab/lagat](https://github.com/proroklab/lagat) | Combining neural policy heuristic methods with the enhanced MAGAT+ model |
+| distill-lagat | [proroklab/distill-lagat](https://github.com/proroklab/distill-lagat/tree/main) | simplified version of LaGAT |
+
+
+#### Others
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| Python MAPF algorithms | [zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning) | Python collection of multiple MAPF methods. |
+| Python MAPF algorithms | [atb033/multi_agent_path_planning](https://github.com/atb033/multi_agent_path_planning) | Python collection of multiple MAPF methods. |
+| Java MAPF algorithms | [J-morag/MAPF](https://github.com/J-morag/MAPF) | Java collection of multiple MAPF methods. |
+
 
 ### Benchmarks & Visualization Tools & Testbed
-- pogema
-    - [pogema](https://github.com/Cognitive-AI-Syshttps://github.com/Cognitive-AI-Systems/pogematems/pogema)
-    - [pogema-benchmark](https://github.com/Cognitive-AI-Systems/pogema-benchmark)
-    - [pogema-toolbox](https://github.com/Cognitive-AI-Systems/pogema-toolbox)
-- mapf-visualizer
-    - [Keisuke Okumura](https://github.com/kei18/mapf-visualizer)
-    - [Justin Shetty](https://github.com/JustinShetty/mapf-visualizer)
-- smart-mapf
-    - [SMART Simulator](https://github.com/smart-mapf)
-    - [SMART Simulator demo](https://smart-mapf.github.io/demo/)
-    - [Lifelong Scalable Multi-Agent Realistic Testbed (LSMART)](https://github.com/smart-mapf/lifelong-smart)
+| Tool / Repository | Link | Description |
+| --- | --- | --- |
+| pogema | [Cognitive-AI-Systems/pogema](https://github.com/Cognitive-AI-Systems/pogema) | Grid-world environment and simulator widely used for MAPF learning and evaluation. |
+| pogema-benchmark | [Cognitive-AI-Systems/pogema-benchmark](https://github.com/Cognitive-AI-Systems/pogema-benchmark) | Benchmark harness and evaluation setup for running standardized MAPF experiments. |
+| pogema-toolbox | [Cognitive-AI-Systems/pogema-toolbox](https://github.com/Cognitive-AI-Systems/pogema-toolbox) | Utilities and helper tools for generating maps, scenarios, and experiment workflows around Pogema. |
+| mapf-visualizer (Keisuke Okumura) | [kei18/mapf-visualizer](https://github.com/kei18/mapf-visualizer) | Lightweight visualizer for MAPF instance playback and solver result inspection. |
+| SMART Simulator (organization) | [smart-mapf](https://github.com/smart-mapf) | Organization hosting simulator and ecosystem projects for realistic lifelong MAPF studies. |
+| SMART Simulator Demo | [smart-mapf demo](https://smart-mapf.github.io/demo/) | Browser demo for quickly testing and viewing SMART simulator behavior. |
+| LSMART | [smart-mapf/lifelong-smart](https://github.com/smart-mapf/lifelong-smart) | Lifelong Scalable Multi-Agent Realistic Testbed for long-horizon MAPF research. |
 
 ## Websites
 - [mapf.info](https://mapf.info/)
