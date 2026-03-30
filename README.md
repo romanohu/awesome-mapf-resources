@@ -154,7 +154,7 @@ Justin Kottinger, Shaull Almagor, Morteza Lahijanian \
 
 **PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning** (PRIMAL) \
 Guillaume Sartoretti, Justin Kerr, Yunfei Shi, Glenn Wagner, T. K. Satish Kumar, Sven Koenig, Howie Choset \
-2019, [[arXiv](https://arxiv.org/abs/1809.03531)] [[code](https://github.com/gsartoretti/PRIMAL)]
+2019, [[arXiv](https://arxiv.org/abs/1809.03531)] [[website](https://primalgrid.netlify.app/home)] [[code](https://github.com/gsartoretti/PRIMAL)]
 
 **PRIMAL2: Pathfinding via Reinforcement and Imitation Multi-Agent Learning -- Lifelong** (PRIMAL2) \
 Mehul Damani, Zhiyao Luo, Emerson Wenzel, Guillaume Sartoretti \
@@ -267,10 +267,10 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | --- | --- | --- |
 | PRIMAL | [gsartoretti/PRIMAL](https://github.com/gsartoretti/PRIMAL) | Classic RL+imitation-learning MAPF baseline. |
 | PRIMAL2 | [marmotlab/PRIMAL2](https://github.com/marmotlab/PRIMAL2) | Lifelong extension of PRIMAL. |
+| SCRIMP | [marmotlab/SCRIMP](https://github.com/marmotlab/SCRIMP) | RL/IL approach emphasizing scalable inter-agent communication. |
+| CTRM | [omron-sinicx/ctrm](https://github.com/omron-sinicx/ctrm) | Learns cooperative timed roadmaps for continuous-space MAPF. |
 | MAGAT | [proroklab/magat_pathplanning](https://github.com/proroklab/magat_pathplanning) | GNN-based MAPF approach with message-aware coordination. |
 | HMAGAT | [proroklab/hmagat](https://github.com/proroklab/hmagat) | Hypergraph neural architecture for dense MAPF. |
-| CTRM | [omron-sinicx/ctrm](https://github.com/omron-sinicx/ctrm) | Learns cooperative timed roadmaps for continuous-space MAPF. |
-| SCRIMP | [marmotlab/SCRIMP](https://github.com/marmotlab/SCRIMP) | RL/IL approach emphasizing scalable inter-agent communication. |
 | MAPF-GPT | [CognitiveAISystems/MAPF-GPT](https://github.com/CognitiveAISystems/MAPF-GPT) | Large-scale imitation-learning-based MAPF solver. |
 | MAPF-GPT-DDG | [Cognitive-AI-Systems/MAPF-GPT-DDG](https://github.com/Cognitive-AI-Systems/MAPF-GPT-DDG) | MAPF-GPT variant with active fine-tuning. |
 
@@ -289,7 +289,7 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 #### Others
 | Solver / Repository | Implementation | Description |
 | --- | --- | --- |
-| Python PathPlanning algorithms | [zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning) | Python collection of multiple MAPF methods. |
+| Python PathPlanning algorithms | [zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning) | Python collection of PathPlanning methods. |
 | Python MAPF algorithms | [atb033/multi_agent_path_planning](https://github.com/atb033/multi_agent_path_planning) | Python collection of multiple MAPF methods. |
 | Java MAPF algorithms | [J-morag/MAPF](https://github.com/J-morag/MAPF) | Java collection of multiple MAPF methods. |
 
@@ -311,7 +311,7 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 - [Project "Multi-Agent Path Planning (MAPF)"](https://idm-lab.org/project-p.html)
 - [A Project on Multi-Agent Path Finding](https://modelai.gettysburg.edu/2020/mapf/)
 - [Foundations of Multi-Agent Path Finding](https://jiaoyangli.me/research/mapf/)
-- [マルチエージェント経路計画の紹介](https://kei18.github.io/note/posts/mapf-tutorial/)
+- [Introduction to Multi-Agent Path Planning](https://kei18.github.io/note/posts/mapf-tutorial/) (ja : マルチエージェント経路計画の紹介)
 
 
 ## Videos　&#x1f3a5;
@@ -319,7 +319,7 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 - [AAMAS-22 Tutorial on Recent Advances in Multi-Agent Path Finding(2022)](https://www.youtube.com/watch?v=H3wRCZf_Mrs)
 - [ICRA25: Multi-Agent Path Finding Using Conflict-Based Search and Structural-Semantic Topometric Maps(2025)](https://www.youtube.com/watch?v=j3UU694Ils0)
 - [Upgrading Multi-Agent Pathfinding for the Real World(2026)](https://www.youtube.com/watch?v=XeZTyUS8ZF0)
-- [Autonomy Talks - 奥村 圭介: スケーラブルなMAPFから高性能なマルチロボット協調まで(2026)](https://www.youtube.com/watch?v=xI84VltsVRw)
+- [Autonomy Talks - Keisuke Okumura : From Scalable MAPF to High-Performance Multi-Robot Coordination(2026)](https://www.youtube.com/watch?v=xI84VltsVRw) (ja : Autonomy Talks - 奥村 圭介: スケーラブルなMAPFから高性能なマルチロボット協調まで) 
 
 ---
 
