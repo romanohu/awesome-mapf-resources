@@ -89,7 +89,7 @@ Glenn Wagner, Howie Choset \
 Hang Ma, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li, Sven Koenig \
 2018, [[arXiv](https://arxiv.org/abs/1812.06356)] [[code](https://github.com/Jiaoyang-Li/PBS)]
 
-<**Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** (CBS with disjoint splitting)\
+**Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** (CBS with disjoint splitting)\
 Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Ariel Felner, Hang Ma, Sven Koenig \
 2019, [[AAAI](https://ojs.aaai.org/index.php/ICAPS/article/view/3487)]
 
