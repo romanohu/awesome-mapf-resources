@@ -259,6 +259,7 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | --- | --- | --- |
 | PIBT | [Kei18/pibt2](https://github.com/Kei18/pibt2) | Official-style PIBT implementation widely used in lifelong MAPF. |
 | pypibt | [Kei18/pypibt](https://github.com/Kei18/pypibt) | Minimal Python implementation of PIBT. |
+| pibt-tiebreaking | [HirokiNagai-39/pibt-tiebreaking](https://github.com/HirokiNagai-39/pibt-tiebreaking) | pibt with performance improvements through tiebreaking processing |
 | Guided-PIBT | [nobodyczcz/Guided-PIBT](https://github.com/nobodyczcz/guided-pibt) | Traffic-flow-guided PIBT extension for lifelong MAPF. |
 | RHCR | [Jiaoyang-Li/RHCR](https://github.com/Jiaoyang-Li/RHCR) | Rolling-horizon method for large-scale lifelong MAPF. |
 
@@ -304,6 +305,8 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | SMART Simulator (organization) | [smart-mapf](https://github.com/smart-mapf) | Organization hosting simulator and ecosystem projects for realistic lifelong MAPF studies. |
 | SMART Simulator Demo | [smart-mapf demo](https://smart-mapf.github.io/demo/) | Browser demo for quickly testing and viewing SMART simulator behavior. |
 | LSMART | [smart-mapf/lifelong-smart](https://github.com/smart-mapf/lifelong-smart) | Lifelong Scalable Multi-Agent Realistic Testbed for long-horizon MAPF research. |
+| MAFIS | [stasis-industries/mafis](https://github.com/stasis-industries/mafis) | a system for measuring what happens when things go wrong |
+
 
 ## Websites　&#x1f5a5;
 - [mapf.info](https://mapf.info/)
