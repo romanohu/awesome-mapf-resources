@@ -247,6 +247,7 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | LaCAM3 | [Kei18/lacam3](https://github.com/Kei18/lacam3) | Engineering-focused LaCAM* extension for real-time and large-scale scenarios. |
 | pylacam | [Kei18/pylacam](https://github.com/Kei18/pylacam) | Minimal Python implementation of LaCAM*. |
 | db-LaCAM | [IMRCLab/db-lacam](https://github.com/IMRCLab/db-lacam) | Kinodynamic planning pipeline using discontinuity-bounded search plus lightweight MAPF. |
+| distill-lg | [Kei18/distill-lg](https://github.com/Kei18/distill-lg) | A simplified implementation of lg-lacam. |
 
 #### LNS Family
 | Solver / Repository | Implementation | Description |
