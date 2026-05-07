@@ -262,6 +262,7 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | pypibt | [Kei18/pypibt](https://github.com/Kei18/pypibt) | Minimal Python implementation of PIBT. |
 | pibt-tiebreaking | [HirokiNagai-39/pibt-tiebreaking](https://github.com/HirokiNagai-39/pibt-tiebreaking) | pibt with performance improvements through tiebreaking processing |
 | Guided-PIBT | [nobodyczcz/Guided-PIBT](https://github.com/nobodyczcz/guided-pibt) | Traffic-flow-guided PIBT extension for lifelong MAPF. |
+| EPIBT | [Straple/EPIBT](https://github.com/Straple/EPIBT/) | Enhancing PIBT via Multi-Action Operations |
 | RHCR | [Jiaoyang-Li/RHCR](https://github.com/Jiaoyang-Li/RHCR) | Rolling-horizon method for large-scale lifelong MAPF. |
 
 #### Learning-based
