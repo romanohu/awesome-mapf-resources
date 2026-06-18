@@ -196,6 +196,9 @@ Taoan Huang, Sven Koenig, Bistra Dilkina \
 Keisuke Okumura, Xavier Défago \
 2022, [[arXiv](https://arxiv.org/abs/2203.00315)] [[website](https://kei18.github.io/sssp/)] [[video](https://www.youtube.com/watch?v=ZMjrQCKS6Fw&t=75s)] [[code](https://github.com/Kei18/sssp)]
 
+**Improving Learnt Local MAPF Policies with Heuristic Search**
+Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, Jiaoyang Li, Maxim Likhachev
+2024, [[arXiv](https://arxiv.org/abs/2605.13296)]
 
 **LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding** (LNS2+RL)\
 Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
@@ -204,6 +207,10 @@ Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
 **Graph Attention-Guided Search for Dense Multi-Agent Pathfinding** (LaGAT)\
 Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok \
 2026, [[arXiv](https://arxiv.org/abs/2510.17382)] [[code](https://github.com/proroklab/lagat)]
+
+**Discrete Diffusion for Complex and Congested Multi-Agent Path Finding with Sparse Social Attention**
+Yuanzhe Wang, Tian Zhi, Zihang Wei, Hongguang Wang, Jiaming Guo, Yang Zhao, Zisheng Liu, Shiyu Quan, Xing Hu, Zidong Du, Yunji Chen
+2026, [[arXiv](https://arxiv.org/abs/2605.13296)]
 
 
 ### Collision Resolution
