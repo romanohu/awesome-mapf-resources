@@ -56,7 +56,7 @@ Pavel Surynek \
 
 **A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding** \
 Jean-Marc Alkazzi, Keisuke Okumura \
-2024, [[ResearchGate](https://www.researchgate.net/publication/380014238_A_Comprehensive_Review_on_Leveraging_Machine_Learning_for_Multi-Agent_Path_Finding)] 
+2024, [[IEEE Access (Open Access)](https://ieeexplore.ieee.org/abstract/document/10506521/)] [[repo](https://github.com/jeanmarcalkazzi/mapf-ml-review)] [[LIVE](https://jeremarc.com/projects/ml-review/)]
 
 **Where Paths Collide: A Comprehensive Survey of Classic and Learning-Based Multi-Agent Pathfinding** \
 Shiyue Wang, Haozheng Xu, Yuhan Zhang, Jingran Lin, Changhong Lu, Xiangfeng Wang, Wenhao Li \
@@ -316,6 +316,11 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | LSMART | [smart-mapf/lifelong-smart](https://github.com/smart-mapf/lifelong-smart) | Lifelong Scalable Multi-Agent Realistic Testbed for long-horizon MAPF research. |
 | MAFIS | [stasis-industries/mafis](https://github.com/stasis-industries/mafis) | a system for measuring what happens when things go wrong |
 
+### Review Repos
+
+| Repository | Link | Description |
+| ---------- | ---- | ----------- |
+| mapf-ml-review (Jean-Marc Alkazzi) | [mapf-ml-review](https://github.com/jeanmarcalkazzi/mapf-ml-review) • [website](https://jeremarc.com/projects/ml-review/) | A continuously updated living survey tracking Machine Learning approaches to solving the MAPF Problem by the author of [A Comprehensive Review on Leveraging Machine Learning for Multi-Agent Path Finding](https://ieeexplore.ieee.org/abstract/document/10506521/) |
 
 ## Websites　&#x1f5a5;
 - [mapf.info](https://mapf.info/)
