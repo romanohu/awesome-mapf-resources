@@ -265,6 +265,9 @@ Yue Zhang, Zhe Chen, Daniel Harabor, Pierre Le Bodic, Peter J. Stuckey \
 Egor Yukhnevich, Anton Andreychuk \
 2026, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40233)] [[code](https://github.com/Straple/EPIBT)]
 
+**Lifelong LaCAM with Local Guidance for Lifelong MAPF** (LLLG)\
+Tomoki Arita, Keisuke Okumura \
+2026 (SoCS), [[arXiv](https://arxiv.org/abs/2605.16855)]
 
 ### Collision Resolution
 
