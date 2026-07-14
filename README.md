@@ -23,6 +23,7 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
     - [Sampling-based Approach](#sampling-based-approach)
     - [Learning-based Approach](#learning-based-approach)
     - [Hybrid Approach](#hybrid-approach)
+    - [Lifelong MAPF](#lifelong-mapf)
     - [Collision Resolution](#collision-resolution)
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
@@ -31,6 +32,7 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
         - [LaCAM Family](#lacam-family)
         - [LNS Family](#lns-family)
         - [Collision Resolution](#collision-resolution-1)
+        - [Lifelong MAPF](#lifelong-mapf-1)
         - [Learning-based](#learning-based)
         - [Hybrid](#hybrid)
         - [Others](#others)
@@ -68,6 +70,10 @@ Shiyue Wang, Haozheng Xu, Yuhan Zhang, Jingran Lin, Changhong Lu, Xiangfeng Wang
 **Finding Optimal Solutions to Cooperative Pathfinding Problems** \
 Trevor Standley \
 2010, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/7564)] [[code](https://github.com/Urist/CooperativePathfinding?tab=readme-ov-file)]
+
+**The Increasing Cost Tree Search for Optimal Multi-Agent Pathfinding** (ICTS)\
+Guni Sharon, Roni Stern, Meir Goldenberg, Ariel Felner \
+2013, [[Artificial Intelligence](https://www.sciencedirect.com/science/article/pii/S0004370212001543)]
 
 **Conflict-based search for optimal multi-agent pathfinding** (CBS)\
 Guni Sharon, Roni Stern, Ariel Felner, Nathan R. Sturtevant \
@@ -118,6 +124,10 @@ Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey and Sven Koenig1 \
 Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey, Sven Koenig \
 2022, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/21266)] [[code](https://github.com/Jiaoyang-Li/MAPF-LNS2)]
 
+**Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic** (ADDRESS)\
+Thomy Phan, Benran Zhang, Shao-Hung Chan, Sven Koenig \
+2025, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/34495)] [[code](https://github.com/JimyZ13/ADDRESS)]
+
 **LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding** (LaCAM)\
 Keisuke Okumura \
 2022, [[arXiv](https://arxiv.org/abs/2211.13432)] [[website](https://kei18.github.io/lacam/)] [[code](https://github.com/Kei18/lacam)]
@@ -125,6 +135,18 @@ Keisuke Okumura \
 **Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding** (LaCAM\*)\
 Keisuke Okumura \
 2023, [[arXiv](https://arxiv.org/abs/2305.03632)] [[website](https://kei18.github.io/lacam2/)] [[code](https://github.com/Kei18/lacam2)]
+
+**Engineering LaCAM\*: Towards Real-Time, Large-Scale, and Near-Optimal Multi-Agent Pathfinding** (LaCAM3)\
+Keisuke Okumura \
+2024, [[AAMAS](https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1501.pdf)] [[code](https://github.com/Kei18/lacam3)]
+
+**Local Guidance for Configuration-Based Multi-Agent Pathfinding** (LG-LaCAM)\
+Tomoki Arita, Keisuke Okumura \
+2026, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40169)] [[arXiv](https://arxiv.org/abs/2510.19072)] [[code](https://github.com/allegorywrite/lg_lacam)]
+
+**A Lightweight Traffic Map for Efficient Anytime LaCAM\*** (LTM-LaCAM\*)\
+Bojie Shen, Yue Zhang, Zhe Chen, Daniel Harabor \
+2026, [[arXiv](https://arxiv.org/abs/2603.07891)]
 
 **db-LaCAM: Fast and Scalable Multi-Robot Kinodynamic Motion Planning with Discontinuity-Bounded Search and Lightweight MAPF** (db-LaCAM) \
 Akmaral Moldagalieva, Keisuke Okumura, Amanda Prorok, Wolfgang Hönig \
@@ -183,7 +205,7 @@ Anton Andreychuk, Konstantin Yakovlev, Aleksandr Panov, and Alexey Skrynnik \
 
 **Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding** (HMAGAT)\
 Rishabh Jain, Keisuke Okumura, Michael Amir, Pietro Lio, Amanda Prorok \
-2025, [[arXiv](https://arxiv.org/abs/2602.06733)] [[code](https://github.com/proroklab/hmagat)]
+2026, [[ICLR](https://openreview.net/pdf/2f4b84d6c3ef2826819f5bb2331e775478aba832.pdf)] [[arXiv](https://arxiv.org/abs/2602.06733)] [[code](https://github.com/proroklab/hmagat)]
 
 
 ### Hybrid Approach
@@ -196,9 +218,13 @@ Taoan Huang, Sven Koenig, Bistra Dilkina \
 Keisuke Okumura, Xavier Défago \
 2022, [[arXiv](https://arxiv.org/abs/2203.00315)] [[website](https://kei18.github.io/sssp/)] [[video](https://www.youtube.com/watch?v=ZMjrQCKS6Fw&t=75s)] [[code](https://github.com/Kei18/sssp)]
 
-**Improving Learnt Local MAPF Policies with Heuristic Search**
-Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, Jiaoyang Li, Maxim Likhachev
-2024, [[arXiv](https://arxiv.org/abs/2605.13296)]
+**Neural Neighborhood Search for Multi-Agent Path Finding** (NNS)\
+Zhongxia Yan, Cathy Wu \
+2024, [[ICLR (OpenReview)](https://openreview.net/forum?id=2NpAw2QJBY)] [[code](https://github.com/mit-wu-lab/mapf_neural_neighborhood_search)]
+
+**Improving Learnt Local MAPF Policies with Heuristic Search**\
+Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, Jiaoyang Li, Maxim Likhachev \
+2024, [[ICAPS](https://ojs.aaai.org/index.php/ICAPS/article/view/31522)] [[arXiv](https://arxiv.org/abs/2403.20300)] [[code](https://github.com/Rishi-V/ML-MAPF-with-Search)]
 
 **LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding** (LNS2+RL)\
 Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
@@ -206,11 +232,38 @@ Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
 
 **Graph Attention-Guided Search for Dense Multi-Agent Pathfinding** (LaGAT)\
 Rishabh Jain, Keisuke Okumura, Michael Amir, Amanda Prorok \
-2026, [[arXiv](https://arxiv.org/abs/2510.17382)] [[code](https://github.com/proroklab/lagat)]
+2026, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40192)] [[arXiv](https://arxiv.org/abs/2510.17382)] [[code](https://github.com/proroklab/lagat)]
 
 **Discrete Diffusion for Complex and Congested Multi-Agent Path Finding with Sparse Social Attention**
 Yuanzhe Wang, Tian Zhi, Zihang Wei, Hongguang Wang, Jiaming Guo, Yang Zhao, Zisheng Liu, Shiyu Quan, Xing Hu, Zidong Du, Yunji Chen
 2026, [[arXiv](https://arxiv.org/abs/2605.13296)]
+
+
+### Lifelong MAPF
+
+**Lifelong Multi-Agent Path Finding in Large-Scale Warehouses** (RHCR) \
+Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, Sven Koenig \
+2021, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/17344)] [[code](https://github.com/Jiaoyang-Li/RHCR)]
+
+**Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding** (Guided-PIBT)\
+Zhe Chen, Daniel Harabor, Jiaoyang Li, Peter J. Stuckey \
+2024, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/30054)] [[arXiv](https://arxiv.org/abs/2308.11234)] [[code](https://github.com/nobodyczcz/Guided-PIBT)]
+
+**Guidance Graph Optimization for Lifelong Multi-Agent Path Finding** (GGO)\
+Yulun Zhang, He Jiang, Varun Bhatt, Stefanos Nikolaidis, Jiaoyang Li \
+2024, [[IJCAI](https://www.ijcai.org/proceedings/2024/35)] [[code](https://github.com/lunjohnzhang/ggo_public)] [[website](https://yulunzhang.net/publication/zhang2024ggo/)]
+
+**Learn to Follow: Decentralized Lifelong Multi-Agent Pathfinding via Planning and Learning**\
+Alexey Skrynnik, Anton Andreychuk, Maria Nesterova, Konstantin Yakovlev, Aleksandr Panov \
+2024, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/29704)] [[code](https://github.com/AIRI-Institute/learn-to-follow)]
+
+**Planning and Execution in Multi-Agent Path Finding: Models and Algorithms** (PIE)\
+Yue Zhang, Zhe Chen, Daniel Harabor, Pierre Le Bodic, Peter J. Stuckey \
+2024, [[ICAPS](https://ojs.aaai.org/index.php/ICAPS/article/view/31534)]
+
+**Enhancing PIBT via Multi-Action Operations** (EPIBT)\
+Egor Yukhnevich, Anton Andreychuk \
+2026, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40233)] [[code](https://github.com/Straple/EPIBT)]
 
 
 ### Collision Resolution
@@ -218,10 +271,6 @@ Yuanzhe Wang, Tian Zhi, Zihang Wei, Hongguang Wang, Jiaming Guo, Yang Zhao, Zish
 **Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding** (PIBT) \
 Keisuke Okumura, Manao Machida, Xavier Défago, Yasumasa Tamura \
 2019, [[IJCAI](https://www.ijcai.org/proceedings/2019/76)] [[website](https://kei18.github.io/pibt2/)] [[video](https://www.youtube.com/watch?v=8Yrwd0t0NEw&t=4s)] [[code](https://github.com/Kei18/pibt2)]
-
-**Lifelong Multi-Agent Path Finding in Large-Scale Warehouses** (RHCR) \
-Jiaoyang Li, Andrew Tinka, Scott Kiesel, Joseph W. Durham, T. K. Satish Kumar, Sven Koenig \
-2021, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/17344)] [[code](https://github.com/Jiaoyang-Li/RHCR)]
 
 
 ## Repositories　&#x1f4c1;
@@ -255,12 +304,14 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | pylacam | [Kei18/pylacam](https://github.com/Kei18/pylacam) | Minimal Python implementation of LaCAM*. |
 | db-LaCAM | [IMRCLab/db-lacam](https://github.com/IMRCLab/db-lacam) | Kinodynamic planning pipeline using discontinuity-bounded search plus lightweight MAPF. |
 | distill-lg | [Kei18/distill-lg](https://github.com/Kei18/distill-lg) | A simplified implementation of lg-lacam. |
+| LG-LaCAM | [allegorywrite/lg_lacam](https://github.com/allegorywrite/lg_lacam) | LaCAM augmented with local spatiotemporal guidance for congestion mitigation. |
 
 #### LNS Family
 | Solver / Repository | Implementation | Description |
 | --- | --- | --- |
 | MAPF-LNS | [Jiaoyang-Li/MAPF-LNS](https://github.com/Jiaoyang-Li/MAPF-LNS) | LNS-based anytime MAPF solver with iterative repair. |
 | MAPF-LNS2 | [Jiaoyang-Li/MAPF-LNS2](https://github.com/Jiaoyang-Li/MAPF-LNS2) | Faster repair-focused successor to MAPF-LNS. |
+| ADDRESS | [JimyZ13/ADDRESS](https://github.com/JimyZ13/ADDRESS) | MAPF-LNS variant with an adaptive delay-based destroy-and-repair heuristic. |
 
 #### Collision Resolution
 | Solver / Repository | Implementation | Description |
@@ -268,9 +319,15 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | PIBT | [Kei18/pibt2](https://github.com/Kei18/pibt2) | Official-style PIBT implementation widely used in lifelong MAPF. |
 | pypibt | [Kei18/pypibt](https://github.com/Kei18/pypibt) | Minimal Python implementation of PIBT. |
 | pibt-tiebreaking | [HirokiNagai-39/pibt-tiebreaking](https://github.com/HirokiNagai-39/pibt-tiebreaking) | pibt with performance improvements through tiebreaking processing |
-| Guided-PIBT | [nobodyczcz/Guided-PIBT](https://github.com/nobodyczcz/guided-pibt) | Traffic-flow-guided PIBT extension for lifelong MAPF. |
-| EPIBT | [Straple/EPIBT](https://github.com/Straple/EPIBT/) | Enhancing PIBT via Multi-Action Operations |
+
+#### Lifelong MAPF
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
 | RHCR | [Jiaoyang-Li/RHCR](https://github.com/Jiaoyang-Li/RHCR) | Rolling-horizon method for large-scale lifelong MAPF. |
+| Guided-PIBT | [nobodyczcz/Guided-PIBT](https://github.com/nobodyczcz/Guided-PIBT) | Traffic-flow-guided PIBT extension for lifelong MAPF. |
+| GGO | [lunjohnzhang/ggo_public](https://github.com/lunjohnzhang/ggo_public) | Optimizes guidance-graph edge weights to improve lifelong MAPF throughput. |
+| Learn to Follow | [AIRI-Institute/learn-to-follow](https://github.com/AIRI-Institute/learn-to-follow) | Decentralized lifelong MAPF solver combining planning and learning. |
+| EPIBT | [Straple/EPIBT](https://github.com/Straple/EPIBT) | PIBT extension with multi-action operations for online lifelong MAPF. |
 
 #### Learning-based
 | Solver / Repository | Implementation | Description |
@@ -290,6 +347,7 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | Solver / Repository | Implementation | Description |
 | --- | --- | --- |
 | SSSP | [Kei18/sssp](https://github.com/Kei18/sssp) | Hybrid motion planner that combines search and sampling. |
+| Neural Neighborhood Search | [mit-wu-lab/mapf_neural_neighborhood_search](https://github.com/mit-wu-lab/mapf_neural_neighborhood_search) | Learning-guided neighborhood selection for MAPF solution refinement. |
 | LNS2+RL | [marmotlab/LNS2-RL](https://github.com/marmotlab/LNS2-RL) | Hybrid approach combining LNS2 with learned policies. |
 | Improving ML MAPF Policies with Heuristic Search | [Rishi-V/ML-MAPF-with-Search](https://github.com/Rishi-V/ML-MAPF-with-Search) | Focuses on improving the performance of learned single-stage policies in MAPF using heuristic search techniques |
 | LaGAT | [proroklab/lagat](https://github.com/proroklab/lagat) | Combining neural policy heuristic methods with the enhanced MAGAT+ model |
