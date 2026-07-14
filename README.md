@@ -360,6 +360,7 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | Python PathPlanning algorithms | [zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning) | Python collection of PathPlanning methods. |
 | Python MAPF algorithms | [atb033/multi_agent_path_planning](https://github.com/atb033/multi_agent_path_planning) | Python collection of multiple MAPF methods. |
 | Java MAPF algorithms | [J-morag/MAPF](https://github.com/J-morag/MAPF) | Java collection of multiple MAPF methods. |
+| Rust LaCAM | [Ukuma012/lacam0-rs](https://github.com/Ukuma012/lacam0-rs)| Rust implementation of LaCAM |
 
 
 ### Benchmarks & Visualization Tools & Testbed
