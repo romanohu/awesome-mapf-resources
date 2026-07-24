@@ -37,6 +37,7 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
         - [Hybrid](#hybrid)
         - [Others](#others)
     - [Benchmarks & Visualization Tools & Testbed](#benchmarks--visualization-tools--testbed)
+    - [Review Repos](#review-repos)
 - [Websites](#websites)
 - [Videos](#videos)
 
@@ -181,6 +182,10 @@ Guillaume Sartoretti, Justin Kerr, Yunfei Shi, Glenn Wagner, T. K. Satish Kumar,
 **PRIMAL2: Pathfinding via Reinforcement and Imitation Multi-Agent Learning -- Lifelong** (PRIMAL2) \
 Mehul Damani, Zhiyao Luo, Emerson Wenzel, Guillaume Sartoretti \
 2020, [[arXiv](https://arxiv.org/abs/2010.08184)] [[code](https://github.com/marmotlab/PRIMAL2)]
+
+**Graph Neural Networks for Decentralized Multi-Robot Path Planning** \
+Qingbiao Li, Fernando Gama, Alejandro Ribeiro, Amanda Prorok \
+2020, [[arXiv](https://arxiv.org/pdf/1912.06095)]
 
 **Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning** (MAGAT)\
 Qingbiao Li, Weizhe Lin, Zhe Liu, Amanda Prorok \
