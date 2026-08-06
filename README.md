@@ -212,6 +212,14 @@ Anton Andreychuk, Konstantin Yakovlev, Aleksandr Panov, and Alexey Skrynnik \
 Rishabh Jain, Keisuke Okumura, Michael Amir, Pietro Lio, Amanda Prorok \
 2026, [[ICLR](https://openreview.net/pdf/2f4b84d6c3ef2826819f5bb2331e775478aba832.pdf)] [[arXiv](https://arxiv.org/abs/2602.06733)] [[code](https://github.com/proroklab/hmagat)]
 
+**Learning to Communicate Locally for Large-Scale Multi-Agent Pathfinding** (LC-MAPF)\
+Valeriy Vyaltsev, Alsu Sagirova, Anton Andreychuk, Oleg Bulichev, Yuri Kuratov, Konstantin Yakovlev, Aleksandr Panov, Alexey Skrynnik \
+2026, [[arXiv](https://arxiv.org/abs/2605.07637)]
+
+**PRIMAL3: Pathfinding via Reinforcement and Imitation Multi-Agent Learning - Leveraging LaCAM3** (PRIMAL3)\
+Chengyang He, Tanishq Duhan, Gadiel Sznaier Camps, Fangyuan Wang, Yuhong Cao, Jiankai Sun, Ge Sun, Mac Schwager, Guillaume Sartoretti \
+2026, [[arXiv](https://arxiv.org/abs/2608.04905)] [[website](https://marmotlab.github.io/PRIMAL3/)] [[code](https://github.com/marmotlab/PRIMAL3)]
+
 
 ### Hybrid Approach
 
