@@ -169,8 +169,8 @@ Wolfgang Hönig, Scott Kiesel, Andrew Tinka, Joseph W. Durham, Nora Ayanian \
 2018, [[ACM](https://dl.acm.org/doi/10.5555/3237383.3237495)]
 
 **From Classical to Colored Multi-Agent Path Finding** \
-Roman Barták, Michaela Ivanová, Jiří Švancara \
-2021, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/18555)]
+Roman Barták, Marika Ivanová, Jiří Švancara \
+2021, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/18566)]
 
 **Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree** (ITA-CBS) \
 Yimin Tang, Zhongqiang Ren, Jiaoyang Li, Katia Sycara \
