@@ -20,21 +20,21 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
 - [Papers](#papers)
     - [Survey](#survey)
     - [Search-based Approach](#search-based-approach)
-    - [Target Assignment and Path Finding (TAPF)](#target-assignment-and-path-finding-tapf)
     - [Sampling-based Approach](#sampling-based-approach)
     - [Learning-based Approach](#learning-based-approach)
     - [Hybrid Approach](#hybrid-approach)
     - [Lifelong MAPF](#lifelong-mapf)
+    - [Target Assignment and Path Finding (TAPF)](#target-assignment-and-path-finding-tapf)
     - [Collision Resolution](#collision-resolution)
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
         - [Search](#search)
-        - [TAPF](#tapf)
         - [CBS Family](#cbs-family)
         - [LaCAM Family](#lacam-family)
         - [LNS Family](#lns-family)
         - [Collision Resolution](#collision-resolution-1)
         - [Lifelong MAPF](#lifelong-mapf-1)
+        - [TAPF](#tapf)
         - [Learning-based](#learning-based)
         - [Hybrid](#hybrid)
         - [Others](#others)
@@ -156,33 +156,6 @@ Bojie Shen, Yue Zhang, Zhe Chen, Daniel Harabor \
 **db-LaCAM: Fast and Scalable Multi-Robot Kinodynamic Motion Planning with Discontinuity-Bounded Search and Lightweight MAPF** (db-LaCAM) \
 Akmaral Moldagalieva, Keisuke Okumura, Amanda Prorok, Wolfgang Hönig \
 2026, [[arXiv](https://arxiv.org/abs/2512.06796)] [[video](https://www.youtube.com/watch?v=K7xUFpH7a48)] [[code](https://github.com/IMRCLab/db-lacam)]
-
-
-### Target Assignment and Path Finding (TAPF)
-
-**Optimal Target Assignment and Path Finding for Teams of Agents** (CBM) \
-Hang Ma, Sven Koenig \
-2016, [[arXiv](https://arxiv.org/abs/1612.05693)]
-
-**Conflict-Based Search with Optimal Task Assignment** (CBS-TA) \
-Wolfgang Hönig, Scott Kiesel, Andrew Tinka, Joseph W. Durham, Nora Ayanian \
-2018, [[ACM](https://dl.acm.org/doi/10.5555/3237383.3237495)]
-
-**From Classical to Colored Multi-Agent Path Finding** \
-Roman Barták, Marika Ivanová, Jiří Švancara \
-2021, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/18566)]
-
-**Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree** (ITA-CBS) \
-Yimin Tang, Zhongqiang Ren, Jiaoyang Li, Katia Sycara \
-2023, [[IEEE](https://doi.org/10.1109/MRS60187.2023.10416794)] [[arXiv](https://arxiv.org/abs/2307.00663)] [[code](https://github.com/TachikakaMin/ITA-CBS2)]
-
-**ITA-ECBS: A Bounded-Suboptimal Algorithm for the Combined Target-Assignment and Path-Finding Problem** (ITA-ECBS) \
-Yimin Tang, Sven Koenig, Jiaoyang Li \
-2024, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/31551)] [[code](https://github.com/TachikakaMin/ITA-CBS2)]
-
-**Alternating Target–Path Planning for Scalable Multi-Agent Coordination** \
-Yu Kumagai, Keisuke Okumura \
-2026, [[arXiv](https://arxiv.org/abs/2605.07744)] [[code](https://github.com/Ukuma012/ir-tapf)]
 
 
 ### Sampling-based Approach
@@ -325,6 +298,33 @@ Egor Yukhnevich, Anton Andreychuk \
 Tomoki Arita, Keisuke Okumura \
 2026 (SoCS), [[arXiv](https://arxiv.org/abs/2605.16855)]
 
+### Target Assignment and Path Finding (TAPF)
+
+**Optimal Target Assignment and Path Finding for Teams of Agents** (CBM) \
+Hang Ma, Sven Koenig \
+2016, [[arXiv](https://arxiv.org/abs/1612.05693)]
+
+**Conflict-Based Search with Optimal Task Assignment** (CBS-TA) \
+Wolfgang Hönig, Scott Kiesel, Andrew Tinka, Joseph W. Durham, Nora Ayanian \
+2018, [[ACM](https://dl.acm.org/doi/10.5555/3237383.3237495)]
+
+**From Classical to Colored Multi-Agent Path Finding** \
+Roman Barták, Marika Ivanová, Jiří Švancara \
+2021, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/18566)]
+
+**Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree** (ITA-CBS) \
+Yimin Tang, Zhongqiang Ren, Jiaoyang Li, Katia Sycara \
+2023, [[IEEE](https://doi.org/10.1109/MRS60187.2023.10416794)] [[arXiv](https://arxiv.org/abs/2307.00663)] [[code](https://github.com/TachikakaMin/ITA-CBS2)]
+
+**ITA-ECBS: A Bounded-Suboptimal Algorithm for the Combined Target-Assignment and Path-Finding Problem** (ITA-ECBS) \
+Yimin Tang, Sven Koenig, Jiaoyang Li \
+2024, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/31551)] [[code](https://github.com/TachikakaMin/ITA-CBS2)]
+
+**Alternating Target–Path Planning for Scalable Multi-Agent Coordination** \
+Yu Kumagai, Keisuke Okumura \
+2026, [[arXiv](https://arxiv.org/abs/2605.07744)] [[code](https://github.com/Ukuma012/ir-tapf)]
+
+
 ### Collision Resolution
 
 **Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding** (PIBT) \
@@ -342,12 +342,6 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | --- | --- | --- |
 | M* | [rap-lab-org/public_cppmomapf](https://github.com/rap-lab-org/public_cppmomapf) | C++ implementation based on M* (subdimensional expansion). |
 | PBS | [Jiaoyang-Li/PBS](https://github.com/Jiaoyang-Li/PBS) | Reference implementation of PBS for priority-based MAPF search. |
-
-#### TAPF
-| Solver / Repository | Implementation | Description |
-| --- | --- | --- |
-| ITA-CBS / ITA-ECBS | [TachikakaMin/ITA-CBS2](https://github.com/TachikakaMin/ITA-CBS2) | Implementations of optimal ITA-CBS and bounded-suboptimal ITA-ECBS, with CBS-TA and ECBS-TA baselines. |
-| Alternating Target–Path Planning | [Ukuma012/ir-tapf](https://github.com/Ukuma012/ir-tapf) | Iterative-refinement TAPF framework that alternates target reassignment and scalable MAPF solving. |
 
 #### CBS Family
 | Solver / Repository | Implementation | Description |
@@ -393,6 +387,12 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | GGO | [lunjohnzhang/ggo_public](https://github.com/lunjohnzhang/ggo_public) | Optimizes guidance-graph edge weights to improve lifelong MAPF throughput. |
 | Learn to Follow | [AIRI-Institute/learn-to-follow](https://github.com/AIRI-Institute/learn-to-follow) | Decentralized lifelong MAPF solver combining planning and learning. |
 | EPIBT | [Straple/EPIBT](https://github.com/Straple/EPIBT) | PIBT extension with multi-action operations for online lifelong MAPF. |
+
+#### TAPF
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| ITA-CBS / ITA-ECBS | [TachikakaMin/ITA-CBS2](https://github.com/TachikakaMin/ITA-CBS2) | Implementations of optimal ITA-CBS and bounded-suboptimal ITA-ECBS, with CBS-TA and ECBS-TA baselines. |
+| Alternating Target–Path Planning | [Ukuma012/ir-tapf](https://github.com/Ukuma012/ir-tapf) | Iterative-refinement TAPF framework that alternates target reassignment and scalable MAPF solving. |
 
 #### Learning-based
 | Solver / Repository | Implementation | Description |
