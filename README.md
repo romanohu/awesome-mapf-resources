@@ -45,13 +45,13 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
 
 ## Papers　&#x1f4d6;
 
-Machine-readable citations for every paper in this section are available in [references.bib](./references.bib). Venue abbreviations are defined in [bibliography-macro.bib](./bibliography-macro.bib).
+Machine-readable citations for every paper in this section are available in [references.bib](./references.bib). Venue abbreviations are defined in [bibliography-macro.bib](./bibliography-macro.bib). Publication years refer to the peer-reviewed version when available; otherwise, the first arXiv release year is used.
 
 ### Survey
 
 **Multi-Agent Path Finding – An Overview** \
 Roni Stern \
-2019, [[ResearchGate](https://www.researchgate.net/publication/336611576_Multi-Agent_Path_Finding_-_An_Overview)] 
+2019, [[Springer](https://link.springer.com/chapter/10.1007/978-3-030-33274-7_6)] 
 
 **Multi-Agent Pathfinding: Definitions, Variants, and Benchmarks** \
 Roni Stern, Nathan Sturtevant, Ariel Felner, Sven Koenig, Hang Ma, Thayne Walker, Jiaoyang Li, Dor Atzmon, Liron Cohen, T. K. Satish Kumar, Eli Boyarski, Roman Bartak \
@@ -86,11 +86,11 @@ Guni Sharon, Roni Stern, Ariel Felner, Nathan R. Sturtevant \
 
 **Suboptimal Variants of the Conflict-Based Search Algorithm for the Multi-Agent Pathfinding Problem** (ECBS)\
 Max Barer, Guni Sharon, Roni Stern, Ariel Felner \
-2015, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/18315)] [[code](https://github.com/whoenig/libMultiRobotPlanning)]
+2014, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/18315)] [[code](https://github.com/whoenig/libMultiRobotPlanning)]
 
 **ICBS: Improved Conflict-Based Search Algorithm for Multi-Agent Pathfinding** (ICBS) \
-Eli Boyarski, Ariel Felner, Roni Stern, Guni Sharon, Oded Betzalel, David Tolpin, Eyal Shimony \
-2015, [[AAAI](https://ojs.aaai.org/index.php/SOCS/article/view/18343)] [[code](https://github.com/gloriyo/MAPF-ICBS)]
+Eli Boyarski, Ariel Felner, Roni Stern, Guni Sharon, David Tolpin, Oded Betzalel, Eyal Shimony \
+2015, [[IJCAI](https://www.ijcai.org/Abstract/15/110)] [[code](https://github.com/gloriyo/MAPF-ICBS)]
 
 **Subdimensional expansion for multirobot path planning** (M\*)\
 Glenn Wagner, Howie Choset \
@@ -98,7 +98,7 @@ Glenn Wagner, Howie Choset \
 
 **Searching with Consistent Prioritization for Multi-Agent Path Finding** (PBS)\
 Hang Ma, Daniel Harabor, Peter J. Stuckey, Jiaoyang Li, Sven Koenig \
-2018, [[arXiv](https://arxiv.org/abs/1812.06356)] [[code](https://github.com/Jiaoyang-Li/PBS)]
+2019, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/4758)] [[arXiv](https://arxiv.org/abs/1812.06356)] [[code](https://github.com/Jiaoyang-Li/PBS)]
 
 **Disjoint Splitting for Multi-Agent Path Finding with Conflict-Based Search** (CBS with disjoint splitting)\
 Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Ariel Felner, Hang Ma, Sven Koenig \
@@ -111,15 +111,15 @@ Jiaoyang Li, Ariel Felner, Eli Boyarski, Hang Ma, Sven Koenig \
 
 **Multi-Agent Pathfinding with Continuous Time** (CCBS) \
 Anton Andreychuk, Konstantin Yakovlev, Dor Atzmon, Roni Stern \
-2019, [[arXiv](https://arxiv.org/abs/1901.05506)] [[code](https://github.com/PathPlanning/Continuous-CBS)]
+2019, [[IJCAI](https://www.ijcai.org/proceedings/2019/6)] [[arXiv](https://arxiv.org/abs/1901.05506)] [[code](https://github.com/PathPlanning/Continuous-CBS)]
 
 **EECBS: A Bounded-Suboptimal Search for Multi-Agent Path Finding** (EECBS)\
 Jiaoyang Li, Wheeler Ruml, Sven Koenig \
 2021, [[DOI](https://doi.org/10.1609/aaai.v35i14.17466)] [[code](https://github.com/Jiaoyang-Li/EECBS)]
 
 **Pairwise Symmetry Reasoning for Multi-Agent Path Finding Search** (CBSH2-RTC) \
-Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Sven Koenig \
-2021, [[arXiv](https://arxiv.org/abs/2103.07116)] [[code](https://github.com/Jiaoyang-Li/CBSH2-RTC?tab=readme-ov-file)]
+Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Hang Ma, Graeme Gange, Sven Koenig \
+2021, [[Artificial Intelligence](https://www.sciencedirect.com/science/article/pii/S0004370221001259)] [[arXiv](https://arxiv.org/abs/2103.07116)] [[code](https://github.com/Jiaoyang-Li/CBSH2-RTC?tab=readme-ov-file)]
 
 **Anytime Multi-Agent Path Finding via Large Neighborhood Search** (MAPF-LNS) \
 Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey and Sven Koenig1 \
@@ -135,7 +135,7 @@ Thomy Phan, Benran Zhang, Shao-Hung Chan, Sven Koenig \
 
 **LaCAM: Search-Based Algorithm for Quick Multi-Agent Pathfinding** (LaCAM)\
 Keisuke Okumura \
-2022, [[arXiv](https://arxiv.org/abs/2211.13432)] [[website](https://kei18.github.io/lacam/)] [[code](https://github.com/Kei18/lacam)]
+2023, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/26377)] [[arXiv](https://arxiv.org/abs/2211.13432)] [[website](https://kei18.github.io/lacam/)] [[code](https://github.com/Kei18/lacam)]
 
 **Improving LaCAM for Scalable Eventually Optimal Multi-Agent Pathfinding** (LaCAM\*)\
 Keisuke Okumura \
@@ -181,19 +181,19 @@ Justin Kottinger, Shaull Almagor, Morteza Lahijanian \
 
 **PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning** (PRIMAL) \
 Guillaume Sartoretti, Justin Kerr, Yunfei Shi, Glenn Wagner, T. K. Satish Kumar, Sven Koenig, Howie Choset \
-2019, [[arXiv](https://arxiv.org/abs/1809.03531)] [[website](https://primalgrid.netlify.app/home)] [[code](https://github.com/gsartoretti/PRIMAL)]
+2019, [[IEEE](https://doi.org/10.1109/LRA.2019.2903261)] [[arXiv](https://arxiv.org/abs/1809.03531)] [[website](https://primalgrid.netlify.app/home)] [[code](https://github.com/gsartoretti/PRIMAL)]
 
 **PRIMAL2: Pathfinding via Reinforcement and Imitation Multi-Agent Learning -- Lifelong** (PRIMAL2) \
 Mehul Damani, Zhiyao Luo, Emerson Wenzel, Guillaume Sartoretti \
-2020, [[arXiv](https://arxiv.org/abs/2010.08184)] [[code](https://github.com/marmotlab/PRIMAL2)]
+2021, [[IEEE](https://doi.org/10.1109/LRA.2021.3062803)] [[arXiv](https://arxiv.org/abs/2010.08184)] [[code](https://github.com/marmotlab/PRIMAL2)]
 
 **Graph Neural Networks for Decentralized Multi-Robot Path Planning** \
 Qingbiao Li, Fernando Gama, Alejandro Ribeiro, Amanda Prorok \
-2020, [[arXiv](https://arxiv.org/pdf/1912.06095)]
+2020, [[IEEE](https://doi.org/10.1109/IROS45743.2020.9341668)] [[arXiv](https://arxiv.org/abs/1912.06095)]
 
 **Message-Aware Graph Attention Networks for Large-Scale Multi-Robot Path Planning** (MAGAT)\
 Qingbiao Li, Weizhe Lin, Zhe Liu, Amanda Prorok \
-2021, [[arXiv](https://arxiv.org/abs/2011.13219)] [[code](https://github.com/proroklab/magat_pathplanning)]
+2021, [[IEEE](https://doi.org/10.1109/LRA.2021.3077863)] [[arXiv](https://arxiv.org/abs/2011.13219)] [[code](https://github.com/proroklab/magat_pathplanning)]
 
 **Distributed Heuristic Multi-Agent Path Finding with Communication** (DHC) \
 Ziyuan Ma, Yudong Luo, Hang Ma \
@@ -213,7 +213,7 @@ Yutong Wang, Bairan Xiang, Shinan Huang, Guillaume Sartoretti \
 
 **MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale** (MAPF-GPT)\
 Anton Andreychuk, Konstantin Yakovlev, Aleksandr Panov, Alexey Skrynnik \
-2024, [[arXiv](https://arxiv.org/abs/2409.00134)] [[website](https://sites.google.com/view/mapf-gpt/)] [[code](https://github.com/CognitiveAISystems/MAPF-GPT)]
+2025, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/34477)] [[arXiv](https://arxiv.org/abs/2409.00134)] [[website](https://sites.google.com/view/mapf-gpt/)] [[code](https://github.com/CognitiveAISystems/MAPF-GPT)]
 
 **Work Smarter Not Harder: Simple Imitation Learning with CS-PIBT Outperforms Large-Scale Imitation Learning for MAPF** (SSIL) \
 Rishi Veerapaneni, Arthur Jakobsson, Kevin Ren, Samuel Kim, Jiaoyang Li, Maxim Likhachev \
@@ -245,7 +245,7 @@ Taoan Huang, Sven Koenig, Bistra Dilkina \
 
 **Quick Multi-Robot Motion Planning by Combining Sampling and Search** (SSSP) \
 Keisuke Okumura, Xavier Défago \
-2022, [[arXiv](https://arxiv.org/abs/2203.00315)] [[website](https://kei18.github.io/sssp/)] [[video](https://www.youtube.com/watch?v=ZMjrQCKS6Fw&t=75s)] [[code](https://github.com/Kei18/sssp)]
+2023, [[IJCAI](https://www.ijcai.org/proceedings/2023/29)] [[arXiv](https://arxiv.org/abs/2203.00315)] [[website](https://kei18.github.io/sssp/)] [[video](https://www.youtube.com/watch?v=ZMjrQCKS6Fw&t=75s)] [[code](https://github.com/Kei18/sssp)]
 
 **Neural Neighborhood Search for Multi-Agent Path Finding** (NNS)\
 Zhongxia Yan, Cathy Wu \
@@ -316,7 +316,7 @@ Roman Barták, Marika Ivanová, Jiří Švancara \
 Yimin Tang, Zhongqiang Ren, Jiaoyang Li, Katia Sycara \
 2023, [[IEEE](https://doi.org/10.1109/MRS60187.2023.10416794)] [[arXiv](https://arxiv.org/abs/2307.00663)] [[code](https://github.com/TachikakaMin/ITA-CBS2)]
 
-**ITA-ECBS: A Bounded-Suboptimal Algorithm for the Combined Target-Assignment and Path-Finding Problem** (ITA-ECBS) \
+**ITA-ECBS: A Bounded-Suboptimal Algorithm for Combined Target-Assignment and Path-Finding Problem** (ITA-ECBS) \
 Yimin Tang, Sven Koenig, Jiaoyang Li \
 2024, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/31551)] [[code](https://github.com/TachikakaMin/ITA-CBS2)]
 
@@ -329,7 +329,7 @@ Yu Kumagai, Keisuke Okumura \
 
 **Priority Inheritance with Backtracking for Iterative Multi-agent Path Finding** (PIBT) \
 Keisuke Okumura, Manao Machida, Xavier Défago, Yasumasa Tamura \
-2019, [[IJCAI](https://www.ijcai.org/proceedings/2019/76)] [[website](https://kei18.github.io/pibt2/)] [[video](https://www.youtube.com/watch?v=8Yrwd0t0NEw&t=4s)] [[code](https://github.com/Kei18/pibt2)]
+2022, [[Artificial Intelligence](https://www.sciencedirect.com/science/article/pii/S0004370222000923)] [[IJCAI 2019](https://www.ijcai.org/proceedings/2019/76)] [[website](https://kei18.github.io/pibt2/)] [[video](https://www.youtube.com/watch?v=8Yrwd0t0NEw&t=4s)] [[code](https://github.com/Kei18/pibt2)]
 
 
 ## Repositories　&#x1f4c1;
