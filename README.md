@@ -20,6 +20,7 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
 - [Papers](#papers)
     - [Survey](#survey)
     - [Search-based Approach](#search-based-approach)
+    - [Target Assignment and Path Finding (TAPF)](#target-assignment-and-path-finding-tapf)
     - [Sampling-based Approach](#sampling-based-approach)
     - [Learning-based Approach](#learning-based-approach)
     - [Hybrid Approach](#hybrid-approach)
@@ -28,6 +29,7 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
 - [Repositories](#repositories)
     - [Solver Implementations](#solver-implementations)
         - [Search](#search)
+        - [TAPF](#tapf)
         - [CBS Family](#cbs-family)
         - [LaCAM Family](#lacam-family)
         - [LNS Family](#lns-family)
@@ -42,6 +44,8 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
 - [Videos](#videos)
 
 ## Papers　&#x1f4d6;
+
+Machine-readable citations for every paper in this section are available in [references.bib](./references.bib). Venue abbreviations are defined in [bibliography-macro.bib](./bibliography-macro.bib).
 
 ### Survey
 
@@ -154,6 +158,33 @@ Akmaral Moldagalieva, Keisuke Okumura, Amanda Prorok, Wolfgang Hönig \
 2026, [[arXiv](https://arxiv.org/abs/2512.06796)] [[video](https://www.youtube.com/watch?v=K7xUFpH7a48)] [[code](https://github.com/IMRCLab/db-lacam)]
 
 
+### Target Assignment and Path Finding (TAPF)
+
+**Optimal Target Assignment and Path Finding for Teams of Agents** (CBM) \
+Hang Ma, Sven Koenig \
+2016, [[arXiv](https://arxiv.org/abs/1612.05693)]
+
+**Conflict-Based Search with Optimal Task Assignment** (CBS-TA) \
+Wolfgang Hönig, Scott Kiesel, Andrew Tinka, Joseph W. Durham, Nora Ayanian \
+2018, [[ACM](https://dl.acm.org/doi/10.5555/3237383.3237495)]
+
+**From Classical to Colored Multi-Agent Path Finding** \
+Roman Barták, Michaela Ivanová, Jiří Švancara \
+2021, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/18555)]
+
+**Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree** (ITA-CBS) \
+Yimin Tang, Zhongqiang Ren, Jiaoyang Li, Katia Sycara \
+2023, [[IEEE](https://doi.org/10.1109/MRS60187.2023.10416794)] [[arXiv](https://arxiv.org/abs/2307.00663)] [[code](https://github.com/TachikakaMin/ITA-CBS2)]
+
+**ITA-ECBS: A Bounded-Suboptimal Algorithm for the Combined Target-Assignment and Path-Finding Problem** (ITA-ECBS) \
+Yimin Tang, Sven Koenig, Jiaoyang Li \
+2024, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/31551)] [[code](https://github.com/TachikakaMin/ITA-CBS2)]
+
+**Alternating Target–Path Planning for Scalable Multi-Agent Coordination** \
+Yu Kumagai, Keisuke Okumura \
+2026, [[arXiv](https://arxiv.org/abs/2605.07744)] [[code](https://github.com/Ukuma012/ir-tapf)]
+
+
 ### Sampling-based Approach
 
 **Multi-agent RRT\*: Sampling-based Cooperative Pathfinding (Extended Abstract)** (Multi-agent RRT\*)\
@@ -191,6 +222,14 @@ Qingbiao Li, Fernando Gama, Alejandro Ribeiro, Amanda Prorok \
 Qingbiao Li, Weizhe Lin, Zhe Liu, Amanda Prorok \
 2021, [[arXiv](https://arxiv.org/abs/2011.13219)] [[code](https://github.com/proroklab/magat_pathplanning)]
 
+**Distributed Heuristic Multi-Agent Path Finding with Communication** (DHC) \
+Ziyuan Ma, Yudong Luo, Hang Ma \
+2021, [[IEEE](https://doi.org/10.1109/ICRA48506.2021.9560748)] [[arXiv](https://arxiv.org/abs/2106.11365)] [[code](https://github.com/ZiyuanMa/DHC)]
+
+**Learning Selective Communication for Multi-Agent Path Finding** (DCC) \
+Ziyuan Ma, Yudong Luo, Jia Pan \
+2022, [[IEEE](https://doi.org/10.1109/LRA.2021.3139145)] [[arXiv](https://arxiv.org/abs/2109.05413)] [[code](https://github.com/ZiyuanMa/DCC)]
+
 **CTRMs: Learning to Construct Cooperative Timed Roadmaps for Multi-agent Path Planning in Continuous Spaces** (CTRM) \
 Keisuke Okumura, Ryo Yonetani, Mai Nishimura, Asako Kanezaki \
 2022, [[arXiv](https://arxiv.org/abs/2201.09467)] [[website](https://omron-sinicx.github.io/ctrm/)] [[code](https://github.com/omron-sinicx/ctrm)]
@@ -202,6 +241,10 @@ Yutong Wang, Bairan Xiang, Shinan Huang, Guillaume Sartoretti \
 **MAPF-GPT: Imitation Learning for Multi-Agent Pathfinding at Scale** (MAPF-GPT)\
 Anton Andreychuk, Konstantin Yakovlev, Aleksandr Panov, Alexey Skrynnik \
 2024, [[arXiv](https://arxiv.org/abs/2409.00134)] [[website](https://sites.google.com/view/mapf-gpt/)] [[code](https://github.com/CognitiveAISystems/MAPF-GPT)]
+
+**Work Smarter Not Harder: Simple Imitation Learning with CS-PIBT Outperforms Large-Scale Imitation Learning for MAPF** (SSIL) \
+Rishi Veerapaneni, Arthur Jakobsson, Kevin Ren, Samuel Kim, Jiaoyang Li, Maxim Likhachev \
+2025, [[IEEE](https://doi.org/10.1109/ICRA55743.2025.11128836)] [[arXiv](https://arxiv.org/abs/2409.14491)] [[website](https://arthurjakobsson.github.io/ssil_mapf/)] [[code](https://github.com/Rishi-V/ML-MAPF-with-Search)]
 
 **Advancing Learnable Multi-Agent Pathfinding Solvers with Active Fine-Tuning** (MAPF-GPT-DDG)\
 Anton Andreychuk, Konstantin Yakovlev, Aleksandr Panov, and Alexey Skrynnik \
@@ -300,6 +343,12 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | M* | [rap-lab-org/public_cppmomapf](https://github.com/rap-lab-org/public_cppmomapf) | C++ implementation based on M* (subdimensional expansion). |
 | PBS | [Jiaoyang-Li/PBS](https://github.com/Jiaoyang-Li/PBS) | Reference implementation of PBS for priority-based MAPF search. |
 
+#### TAPF
+| Solver / Repository | Implementation | Description |
+| --- | --- | --- |
+| ITA-CBS / ITA-ECBS | [TachikakaMin/ITA-CBS2](https://github.com/TachikakaMin/ITA-CBS2) | Implementations of optimal ITA-CBS and bounded-suboptimal ITA-ECBS, with CBS-TA and ECBS-TA baselines. |
+| Alternating Target–Path Planning | [Ukuma012/ir-tapf](https://github.com/Ukuma012/ir-tapf) | Iterative-refinement TAPF framework that alternates target reassignment and scalable MAPF solving. |
+
 #### CBS Family
 | Solver / Repository | Implementation | Description |
 | --- | --- | --- |
@@ -353,6 +402,8 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 | SCRIMP | [marmotlab/SCRIMP](https://github.com/marmotlab/SCRIMP) | RL/IL approach emphasizing scalable inter-agent communication. |
 | CTRM | [omron-sinicx/ctrm](https://github.com/omron-sinicx/ctrm) | Learns cooperative timed roadmaps for continuous-space MAPF. |
 | MAGAT | [proroklab/magat_pathplanning](https://github.com/proroklab/magat_pathplanning) | GNN-based MAPF approach with message-aware coordination. |
+| DHC | [ZiyuanMa/DHC](https://github.com/ZiyuanMa/DHC) | Distributed heuristic communication policy trained with deep reinforcement learning. |
+| DCC | [ZiyuanMa/DCC](https://github.com/ZiyuanMa/DCC) | Decision-causal selective communication policy with request-reply neighbor selection. |
 | HMAGAT | [proroklab/hmagat](https://github.com/proroklab/hmagat) | Hypergraph neural architecture for dense MAPF. |
 | MAPF-GPT | [CognitiveAISystems/MAPF-GPT](https://github.com/CognitiveAISystems/MAPF-GPT) | Large-scale imitation-learning-based MAPF solver. |
 | MAPF-GPT-DDG | [Cognitive-AI-Systems/MAPF-GPT-DDG](https://github.com/Cognitive-AI-Systems/MAPF-GPT-DDG) | MAPF-GPT variant with active fine-tuning. |
@@ -418,3 +469,4 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 > References
 > - [awesome-mapf](https://github.com/joonyeol-sim/awesome-mapf?tab=readme-ov-file) ```Reference list used for literature search```
 > - [pogema](https://github.com/Cognitive-AI-Systems/pogema) ```Used for creating demos of assets```
+> - [mapf-ml-review bibliography-macro.bib](https://github.com/jeanmarcalkazzi/mapf-ml-review/blob/master/bibliography-macro.bib) ```Venue macro conventions adapted for the BibTeX bibliography```
