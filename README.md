@@ -19,6 +19,7 @@ MAPF is the problem of computing optimal, collision-free paths for multiple agen
 
 - [Papers](#papers)
     - [Survey](#survey)
+    - [Benchmarks and Testbeds](#benchmarks-and-testbeds)
     - [Search-based Approach](#search-based-approach)
     - [Sampling-based Approach](#sampling-based-approach)
     - [Learning-based Approach](#learning-based-approach)
@@ -70,6 +71,20 @@ Shiyue Wang, Haozheng Xu, Yuhan Zhang, Jingran Lin, Changhong Lu, Xiangfeng Wang
 2025, [[arXiv](https://arxiv.org/abs/2505.19219)] 
 
 
+**42+ Flavors of Multi-Agent Path Finding** \
+David Zahrádka, Miroslav Kulich, Jiří Švancara, Roman Barták \
+2026, [[JAIR](https://www.jair.org/index.php/jair/article/view/21183)]
+
+### Benchmarks and Testbeds
+
+**POGEMA: A Benchmark Platform for Cooperative Multi-Agent Pathfinding** (POGEMA) \
+Alexey Skrynnik, Anton Andreychuk, Anatolii Borzilov, Alexander Chernyavskiy, Konstantin Yakovlev, Aleksandr Panov \
+2025, [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2025/hash/10d19888a94f390e58f922ab3937e1cb-Abstract-Conference.html)] [[code](https://github.com/Cognitive-AI-Systems/pogema)]
+
+**Lifelong Scalable Multi-Agent Realistic Testbed and A Comprehensive Study on Design Choices in Lifelong AGV Fleet Management Systems** (LSMART) \
+Jingtian Yan, Yulun Zhang, Zhenting Liu, Han Zhang, He Jiang, Jingkai Chen, Stephen F. Smith, Jiaoyang Li \
+2026, [[arXiv](https://arxiv.org/abs/2602.15721)] [[website](https://smart-mapf.github.io/lifelong-smart/)] [[code](https://github.com/smart-mapf/lifelong-smart)]
+
 ### Search-based Approach
 
 **Finding Optimal Solutions to Cooperative Pathfinding Problems** \
@@ -117,6 +132,10 @@ Anton Andreychuk, Konstantin Yakovlev, Dor Atzmon, Roni Stern \
 Jiaoyang Li, Wheeler Ruml, Sven Koenig \
 2021, [[DOI](https://doi.org/10.1609/aaai.v35i14.17466)] [[code](https://github.com/Jiaoyang-Li/EECBS)]
 
+**Flex Distribution for Bounded-Suboptimal Multi-Agent Path Finding** (FEECBS) \
+Shao-Hung Chan, Jiaoyang Li, Graeme Gange, Daniel Harabor, Peter J. Stuckey, Sven Koenig \
+2022, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/21162)] [[code](https://github.com/shchan13/FEECBS)]
+
 **Pairwise Symmetry Reasoning for Multi-Agent Path Finding Search** (CBSH2-RTC) \
 Jiaoyang Li, Daniel Harabor, Peter J. Stuckey, Hang Ma, Graeme Gange, Sven Koenig \
 2021, [[Artificial Intelligence](https://www.sciencedirect.com/science/article/pii/S0004370221001259)] [[arXiv](https://arxiv.org/abs/2103.07116)] [[code](https://github.com/Jiaoyang-Li/CBSH2-RTC?tab=readme-ov-file)]
@@ -128,6 +147,10 @@ Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey, Sven Koenig \
 **MAPF-LNS2: Fast Repairing for Multi-Agent Path Finding via Large Neighborhood Search** (MAPF-LNS2)\
 Jiaoyang Li, Zhe Chen, Daniel Harabor, Peter J. Stuckey, Sven Koenig \
 2022, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/21266)] [[code](https://github.com/Jiaoyang-Li/MAPF-LNS2)]
+
+**Adaptive Anytime Multi-Agent Path Finding Using Bandit-Based Large Neighborhood Search** (BALANCE) \
+Thomy Phan, Taoan Huang, Bistra Dilkina, Sven Koenig \
+2024, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/29701)] [[arXiv](https://arxiv.org/abs/2312.16767)] [[code](https://github.com/thomyphan/anytime-mapf)]
 
 **Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic** (ADDRESS)\
 Thomy Phan, Benran Zhang, Shao-Hung Chan, Sven Koenig \
@@ -145,6 +168,10 @@ Keisuke Okumura \
 Keisuke Okumura \
 2024, [[AAMAS](https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1501.pdf)] [[code](https://github.com/Kei18/lacam3)]
 
+**Real-Time LaCAM for Real-Time MAPF** \
+Runzhe Liang, Rishi Veerapaneni, Daniel Harabor, Jiaoyang Li, Maxim Likhachev \
+2025, [[SoCS (Short Paper)](https://ojs.aaai.org/index.php/SOCS/article/view/35993)]
+
 **Local Guidance for Configuration-Based Multi-Agent Pathfinding** (LG-LaCAM)\
 Tomoki Arita, Keisuke Okumura \
 2026, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40169)] [[arXiv](https://arxiv.org/abs/2510.19072)] [[code](https://github.com/allegorywrite/lg_lacam)]
@@ -152,6 +179,10 @@ Tomoki Arita, Keisuke Okumura \
 **A Lightweight Traffic Map for Efficient Anytime LaCAM\*** (LTM-LaCAM\*)\
 Bojie Shen, Yue Zhang, Zhe Chen, Daniel Harabor \
 2026, [[arXiv](https://arxiv.org/abs/2603.07891)]
+
+**db-CBS: Discontinuity-Bounded Conflict-Based Search for Multi-Robot Kinodynamic Motion Planning** (db-CBS) \
+Akmaral Moldagalieva, Joaquim Ortiz-Haro, Marc Toussaint, Wolfgang Hönig \
+2024, [[IEEE](https://doi.org/10.1109/ICRA57147.2024.10610999)] [[arXiv](https://arxiv.org/abs/2309.16445)] [[code](https://github.com/IMRCLab/db-CBS)]
 
 **db-LaCAM: Fast and Scalable Multi-Robot Kinodynamic Motion Planning with Discontinuity-Bounded Search and Lightweight MAPF** (db-LaCAM) \
 Akmaral Moldagalieva, Keisuke Okumura, Amanda Prorok, Wolfgang Hönig \
@@ -224,6 +255,10 @@ Anton Andreychuk, Konstantin Yakovlev, Aleksandr Panov, and Alexey Skrynnik \
 2025, [[IEEE](https://doi.org/10.1109/IROS60139.2025.11247645)] [[arXiv](https://arxiv.org/abs/2506.23793)] [[website](https://sites.google.com/view/mapf-gpt-ddg)] [[code](https://github.com/Cognitive-AI-Systems/MAPF-GPT-DDG)]
 
 
+**RAILGUN: A Unified Convolutional Policy for Multi-Agent Path Finding Across Different Environments and Tasks** (RAILGUN) \
+Yimin Tang, Xiao Xiong, Jingyi Xi, Jiaoyang Li, Erdem Bıyık, Sven Koenig \
+2025 (IROS), [[arXiv](https://arxiv.org/abs/2503.02992)]
+
 **Pairwise is Not Enough: Hypergraph Neural Networks for Multi-Agent Pathfinding** (HMAGAT)\
 Rishabh Jain, Keisuke Okumura, Michael Amir, Pietro Lio, Amanda Prorok \
 2026, [[ICLR](https://openreview.net/pdf/2f4b84d6c3ef2826819f5bb2331e775478aba832.pdf)] [[arXiv](https://arxiv.org/abs/2602.06733)] [[code](https://github.com/proroklab/hmagat)]
@@ -237,11 +272,23 @@ Chengyang He, Tanishq Duhan, Gadiel Sznaier Camps, Fangyuan Wang, Yuhong Cao, Ji
 2026, [[arXiv](https://arxiv.org/abs/2608.04905)] [[website](https://marmotlab.github.io/PRIMAL3/)] [[code](https://github.com/marmotlab/PRIMAL3)]
 
 
+**Decentralized Master-Mind: Joint Action Refinement through Iterative Intent Denoising in Multi-Agent Pathfinding** (DMM) \
+Valeriy Vyaltsev, Anton Andreychuk, Taisia Zlotnikova, Konstantin Yakovlev, Aleksandr Panov, Alexey Skrynnik \
+2026, [[arXiv](https://arxiv.org/abs/2609.32019)] [[code](https://github.com/CognitiveAISystems/DMM)]
+
+**Map-Distribution Mixture-of-Experts for Multi-Agent Pathfinding** \
+Fumimaro Suzuki, Keisuke Okumura \
+2026, [[arXiv](https://arxiv.org/html/2610.25991v1)] [[code](https://github.com/romanohu/MDMoE-MAPF)]
+
 ### Hybrid Approach
 
 **Learning to Resolve Conflicts for Multi-Agent Path Finding with Conflict-Based Search** (ML-guided CBS)\
 Taoan Huang, Sven Koenig, Bistra Dilkina \
 2021, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/17341)] [[arXiv](https://arxiv.org/abs/2012.06005)] 
+
+**Anytime Multi-Agent Path Finding via Machine Learning-Guided Large Neighborhood Search** (MAPF-ML-LNS) \
+Taoan Huang, Jiaoyang Li, Sven Koenig, Bistra Dilkina \
+2022, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/21168)] [[code](https://github.com/hta1996/LNS-ML)]
 
 **Quick Multi-Robot Motion Planning by Combining Sampling and Search** (SSSP) \
 Keisuke Okumura, Xavier Défago \
@@ -254,6 +301,10 @@ Zhongxia Yan, Cathy Wu \
 **Improving Learnt Local MAPF Policies with Heuristic Search**\
 Rishi Veerapaneni, Qian Wang, Kevin Ren, Arthur Jakobsson, Jiaoyang Li, Maxim Likhachev \
 2024, [[ICAPS](https://ojs.aaai.org/index.php/ICAPS/article/view/31522)] [[arXiv](https://arxiv.org/abs/2403.20300)] [[code](https://github.com/Rishi-V/ML-MAPF-with-Search)]
+
+**Ensembling Prioritized Hybrid Policies for Multi-agent Pathfinding** (EPH) \
+Huijie Tang, Federico Berto, Jinkyoo Park \
+2024, [[IEEE](https://ieeexplore.ieee.org/document/10801914/)] [[arXiv](https://arxiv.org/abs/2403.07559)] [[website](https://ai4co.github.io/eph-mapf/)] [[code](https://github.com/ai4co/eph-mapf)]
 
 **LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding** (LNS2+RL)\
 Yutong Wang, Tanishq Duhan, Jiaoyang Li, Guillaume Sartoretti \
@@ -290,6 +341,10 @@ Alexey Skrynnik, Anton Andreychuk, Maria Nesterova, Konstantin Yakovlev, Aleksan
 Yue Zhang, Zhe Chen, Daniel Harabor, Pierre Le Bodic, Peter J. Stuckey \
 2024, [[ICAPS](https://ojs.aaai.org/index.php/ICAPS/article/view/31534)]
 
+**Deploying Ten Thousand Robots: Scalable Imitation Learning for Lifelong Multi-Agent Path Finding** (SILLM) \
+He Jiang, Yutong Wang, Rishi Veerapaneni, Tanishq Duhan, Guillaume Sartoretti, Jiaoyang Li \
+2025 (ICRA), [[arXiv](https://arxiv.org/abs/2410.21415)] [[website](https://diligentpanda.github.io/SILLM/)] [[code](https://github.com/DiligentPanda/Scalable-Imitation-Learning-for-LMAPF)]
+
 **Enhancing PIBT via Multi-Action Operations** (EPIBT)\
 Egor Yukhnevich, Anton Andreychuk \
 2026, [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40233)] [[code](https://github.com/Straple/EPIBT)]
@@ -311,6 +366,10 @@ Wolfgang Hönig, Scott Kiesel, Andrew Tinka, Joseph W. Durham, Nora Ayanian \
 **From Classical to Colored Multi-Agent Path Finding** \
 Roman Barták, Marika Ivanová, Jiří Švancara \
 2021, [[SoCS](https://ojs.aaai.org/index.php/SOCS/article/view/18566)]
+
+**Solving Simultaneous Target Assignment and Path Planning Efficiently with Time-Independent Execution** (TSWAP) \
+Keisuke Okumura, Xavier Défago \
+2023, [[Artificial Intelligence](https://www.sciencedirect.com/science/article/pii/S0004370223000929)] [[ICAPS 2022](https://ojs.aaai.org/index.php/ICAPS/article/view/19810)] [[website](https://kei18.github.io/tswap/)]
 
 **Solving Multi-Agent Target Assignment and Path Finding with a Single Constraint Tree** (ITA-CBS) \
 Yimin Tang, Zhongqiang Ren, Jiaoyang Li, Katia Sycara \
