@@ -2,7 +2,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![RRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-<img src="./assets/mapf_demo_500.svg" width="100%" alt="Map created using pogema(https://github.com/Cognitive-AI-Systems/pogema). The solver is LaCAM(https://arxiv.org/abs/2211.13432).">
+<img src="./assets/mapf_demo_866.svg" width="100%" alt="866 agents follow collision-free LaCAM paths to their assigned goals, filling every cell of the letters MAPF.">
+
+The 866 agents converge on goals filling every cell of the letters **MAPF**, then hold the formation before the animation repeats. Paths are computed with [LaCAM](https://arxiv.org/abs/2211.13432).
 
 
 ---
