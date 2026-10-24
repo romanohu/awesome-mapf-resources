@@ -4,9 +4,6 @@
 
 <img src="./assets/mapf_demo_866.svg" width="100%" alt="866 agents follow collision-free LaCAM paths to their assigned goals, filling every cell of the letters MAPF.">
 
-The 866 agents converge on goals filling every cell of the letters **MAPF**, then hold the formation before the animation repeats. Paths are computed with [LaCAM](https://arxiv.org/abs/2211.13432).
-
-
 ---
 
 A list aiming to broadly cover excellent papers, repositories, websites, and videos related to Multi-Agent Pathfinding (MAPF)
