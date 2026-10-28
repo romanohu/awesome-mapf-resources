@@ -515,8 +515,10 @@ The GitHub star list is available [here](https://github.com/stars/romanohu/lists
 - [Lecture 9: Multi-Robot Path Planning(2021)](https://www.youtube.com/watch?v=VJkFHIUHHXw)
 - [AAMAS-22 Tutorial on Recent Advances in Multi-Agent Path Finding(2022)](https://www.youtube.com/watch?v=H3wRCZf_Mrs)
 - [ICRA25: Multi-Agent Path Finding Using Conflict-Based Search and Structural-Semantic Topometric Maps(2025)](https://www.youtube.com/watch?v=j3UU694Ils0)
+- [How to Coordinate Thousands of Robots Efficiently and Robustly(2025)](https://www.youtube.com/watch?v=c1_q8Eo34rU)
 - [Upgrading Multi-Agent Pathfinding for the Real World(2026)](https://www.youtube.com/watch?v=XeZTyUS8ZF0)
 - [Autonomy Talks - Keisuke Okumura : From Scalable MAPF to High-Performance Multi-Robot Coordination(2026)](https://www.youtube.com/watch?v=xI84VltsVRw) (ja : Autonomy Talks - 奥村 圭介: スケーラブルなMAPFから高性能なマルチロボット協調まで) 
+- [IROS-26 Tutorial on Scalable Multi-Robot Planning: From MAPF Algorithms to Real Robotic Systems(2026)](https://www.youtube.com/watch?v=EkfmFfDh9N0)
 
 ---
 
